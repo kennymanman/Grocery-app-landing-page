@@ -2,7 +2,6 @@
 import './App.css';
 import Home from "./Home"
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./Contact"
 import About from "./About"
