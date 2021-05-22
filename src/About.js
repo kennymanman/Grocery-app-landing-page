@@ -66,7 +66,7 @@ farm owners, food merchants in respective cities to connect to customers
 in the same city they reside in at affordable prices and rates.
 Sign up today as a customer or groceries vendor and enjoy buying & selling of
 groceries at affordable and beneficial rates at your convenience .Feel free to
-contact us about any enquiry you may have regarding using our platform for buying or selling of groceries.
+contact us about any enquiry you may have regarding using our platform for buying or selling of groceries..
     </p>
 </ReactBootStrap.Col>
 
