@@ -23,7 +23,7 @@ return(
 
 
 
-<div style={{ 
+<div style ={{ 
     backgroundImage: "url("+poal+ ")",
     backgroundSize: "cover",
     height: "110vh",
@@ -73,12 +73,12 @@ doorstep with the click of a button.
 
 <FaAppStoreIos style={{position:"absolute",
                        fontSize:50,
-                        marginTop:586,
+                        marginTop:630,
                          marginLeft:70}} />
 
 <FaGooglePlay   style={{position:"absolute",
                         fontSize:40,
-                         marginTop:590,
+                         marginTop:635,
                           marginLeft:150}}/>
 
 {/*
@@ -118,7 +118,7 @@ doorstep with the click of a button.
 
 
 
-<ReactBootStrap.Image src={papa} style={{marginTop:55,
+<ReactBootStrap.Image src={papa} style={{marginTop:82,
                                          borderRadius:0,
                                          position:"absolute" , 
                                          width:1530,

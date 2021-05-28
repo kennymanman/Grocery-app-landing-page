@@ -113,7 +113,7 @@ contact us about any enquiry you may have regarding using our platform for buyin
 
 <ReactBootStrap.Col  >
 <ReactBootStrap.Image style={{height:325,
-                              marginTop:190,
+                              marginTop:247,
                                width:350}}
                                src={pase} fluid />
       

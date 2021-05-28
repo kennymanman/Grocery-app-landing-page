@@ -74,7 +74,7 @@ Feel free to contact or visit us. Below are provided details for contacting us,
 </Layout> 
 
 
-<ReactBootStrap.Image src={papa} style={{marginTop:50,
+<ReactBootStrap.Image src={papa} style={{marginTop:80,
                                          borderRadius:0,
                                          position:"absolute" ,
                                           width:1530,
