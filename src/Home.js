@@ -10,7 +10,9 @@ import { GrMail } from "react-icons/gr"
 import MobileStoreButton from 'react-mobile-store-button'
 import { FaAppStoreIos } from "react-icons/fa"
 import { FaGooglePlay } from "react-icons/fa"
-import phone from "./Imaged/papa.png"
+import phone from "./Imaged/phone.jpg"
+import final from "./Imaged/final.jpg"
+
 
 
 function Home() {
@@ -80,19 +82,77 @@ fluid
 </ReactBootStrap.Col>
 </ReactBootStrap.Row>
 
+
 <Layout>
-  <ReactBootStrap.Row>
-<ReactBootStrap.Col>
+  <ReactBootStrap.Row className="phonerow">
+
+<ReactBootStrap.Col xs={8} md={6}>
 
 < img  alt="loading"
   className="phone"
-  fluid src={phone}  />
+  fluid src={final}  />
 </ReactBootStrap.Col>
 
+<ReactBootStrap.Col xs={10} md={6}>
+  <p className="phoneinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+   when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book.</p>
+</ReactBootStrap.Col>
 
 
   </ReactBootStrap.Row>
 </Layout>
+ 
+< img  alt="loading"
+  className="groundimage"
+  fluid src={papa}  />
+
+
+  <h3 className="quote">"Garden helped me with my grocery shopping during the Covid-19 pandemic"</h3>
+  <h5 className="line">- Stella</h5>
+
+
+<Layout>
+
+<ReactBootStrap.Row className="groundrow ">
+
+<ReactBootStrap.Col>
+<h2 className="groundtext">Garden.</h2>
+<GrInstagram className="groundicon" />
+<GrTwitter className="groundicon" />
+ <GrMail className="groundicon" />
+
+</ReactBootStrap.Col>
+
+
+
+<ReactBootStrap.Col>
+<h3  className="groundtext"> About Us</h3>
+<a className="groundtext"  href="/About">Our aim</a> <br/>
+<a className="groundtext"  href="/About">Meet the founder</a>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+
+<h3 className="groundtext" > Contact Us</h3>
+<p className="groundtext" >Phone Number: +234 0000000098  
+
+<br/>
+<a  className="groundtext" href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp.com</a>
+<br/>
+<p className="groundtext">Address: 92, Lanre Awolokun Gbagada phase 2<br/>Lagos, Nigeria.</p>
+<br/>
+</p>
+</ReactBootStrap.Col>
+
+
+
+
+
+</ReactBootStrap.Row>
+</Layout>
+
 
 
     </div>

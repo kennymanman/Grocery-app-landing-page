@@ -3,7 +3,7 @@
 
 .homebackground{
  background-size: "cover";
- height: "80vh";
+ 
  width: 1520px;
  position: absolute ;
 }
@@ -30,7 +30,7 @@
 .subtitle{
   margin-left: 10px;
   margin-top:86px;
-
+  font-family: 'Inter', sans-serif;
 }
 
 .info{
@@ -64,4 +64,52 @@
 
 .pagerow{
   margin-top: 50px;
+}
+.phone{
+  width: 400px;
+  height:55vh;
+  
+}
+.phonerow{
+  margin-top: 290px; 
+}
+.phoneinfo{
+  color:yellow;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+}
+.groundimage{
+  width:1520px;
+  height: 43vh;
+  position: absolute;
+  margin-top: 420px;
+}
+.quote{
+  position: relative;
+  font-size: 34px;
+  color: yellow;
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Inter', sans-serif;
+}
+.line{
+  position: relative;
+  color: yellow;
+  text-align: center;
+  margin-left: 600px;
+  font-size: 28px;
+
+}
+.groundrow{
+  margin-top: 270px;
+}
+
+.groundtext{
+  color: aliceblue;
+}
+.groundicon{
+  color:aliceblue;
+  font-size: 20px;
+  margin:7px;
 }
