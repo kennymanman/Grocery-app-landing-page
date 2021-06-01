@@ -16,7 +16,7 @@ return (
 <div>
 <Layout>
 
-<ReactBootStrap.Navbar fixed="top"
+<ReactBootStrap.Navbar expand="lg" fixed="top"
   style={{marginTop:0,
           backgroundColor:"#ffffff"}} >
 
@@ -42,6 +42,8 @@ return (
       <h8 style={{color:"orange"}}>.</h8>
       </p></ReactBootStrap.Nav.Link>
 </LinkContainer>
+
+< ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
 
 <ReactBootStrap.Navbar.Collapse className="justify-content-end">
 
