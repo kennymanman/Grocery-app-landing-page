@@ -83,14 +83,14 @@
   width:1520px;
   height: 43vh;
   position: absolute;
-  margin-top: 420px;
+  margin-top: 180px;
 }
 .quote{
   position: relative;
-  font-size: 34px;
+  font-size: 32px;
   color: yellow;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 180px;
   font-family: 'Inter', sans-serif;
 }
 .line{
@@ -102,7 +102,7 @@
 
 }
 .groundrow{
-  margin-top: 270px;
+  margin-top: 260px;
 }
 
 .groundtext{
@@ -112,4 +112,123 @@
   color:aliceblue;
   font-size: 20px;
   margin:7px;
+}
+.footer{
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+.aboutbackground{
+  width: 1520px;
+  height: 110vh;
+  position: absolute ;
+
+}
+.aboutheader{
+  font-size: 75px;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  color: yellow;
+  margin-top: 150px;
+}
+
+.dotdot{
+  color:orange;
+}
+
+.abouttext{
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  color: yellow;
+  margin-top: 320px;
+  font-size: 30px;
+}
+.nextbackground{
+  width: 1520px;
+  height: 110vh;
+  position: absolute ;
+  margin-top: 720px;
+
+}
+.founderheader{
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  color: yellow;
+  margin-top: 790px; 
+  font-size: 75px;
+}
+.name{
+  position: absolute;
+  font-family: 'Inter', sans-serif; 
+  margin-top: 1030px;
+  font-size: 30px;
+  color:yellow;
+}
+.ceo{
+  position: absolute;
+  font-family: 'Inter', sans-serif; 
+  margin-top: 1070px;
+  font-size: 21px;
+  color: yellow;
+}
+.ceoimage{
+  height:325px;
+  margin-top:857px;
+  width:350px;
+}
+.contactbackground{
+  width: 1520px;
+  height:110vh;
+  position: absolute;
+  background-size: "cover"
+}
+.contactheader{
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  color: yellow;
+  margin-top: 130px;
+  font-size: 75px;
+
+}
+.contactminor{
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  color: yellow;
+  margin-top: 350px;
+  font-size: 42px;
+}
+.mailink{
+  position: absolute;
+  margin-top: 370px;
+  font-size: 23px;
+  color: aliceblue;
+}
+.phoneink{
+  position: absolute;
+  margin-top: 440px;
+  font-size: 26px; 
+  color: aliceblue;
+}
+.endone{
+  position: absolute;
+  font-size: 19px;
+  margin-top: 365px;
+  color: aliceblue;
+  margin-left: 30px;
+}
+.endtwo{
+  position: absolute;
+  font-size: 19px;
+  margin-top: 440px;
+  color:aliceblue;
+  margin-left: 30px;
+}
+.endimage{
+  margin-top: 730px;
+  width:1520px;
+  height: 43vh;
+  position: absolute;
+}
+.endrow{
+  margin-top: 820px;
 }

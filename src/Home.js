@@ -10,7 +10,6 @@ import { GrMail } from "react-icons/gr"
 import MobileStoreButton from 'react-mobile-store-button'
 import { FaAppStoreIos } from "react-icons/fa"
 import { FaGooglePlay } from "react-icons/fa"
-import phone from "./Imaged/phone.jpg"
 import final from "./Imaged/final.jpg"
 
 
@@ -104,14 +103,15 @@ fluid
   </ReactBootStrap.Row>
 </Layout>
  
-< img  alt="loading"
-  className="groundimage"
-  fluid src={papa}  />
+
 
 
   <h3 className="quote">"Garden helped me with my grocery shopping during the Covid-19 pandemic"</h3>
   <h5 className="line">- Stella</h5>
 
+  < img  alt="loading"
+  className="groundimage"
+  fluid src={papa}  />
 
 <Layout>
 
@@ -122,6 +122,7 @@ fluid
 <GrInstagram className="groundicon" />
 <GrTwitter className="groundicon" />
  <GrMail className="groundicon" />
+ <p className="footer">© 2021 Garden <br/> Lagos, Nigeria</p>
 
 </ReactBootStrap.Col>
 
