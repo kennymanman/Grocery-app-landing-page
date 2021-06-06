@@ -5,50 +5,54 @@ import papa from "./Imaged/papa.png"
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
-import fapa from "./Imaged/fapa.jpg"
-import { AiFillPhone } from "react-icons/ai";
-
+import hpi from "./Imaged/hpi.jpg"
+import {GrPhone} from "react-icons/gr"
 
 
 export default function Contact() {
-return (
+  return (
+
+
 
 <div>
-      
+
 < img  alt="loading"
 className="contactbackground"
-fluid src={fapa}  />
+fluid src={hpi}  />
 
 
 <Layout>
-<ReactBootStrap.Row>
-<ReactBootStrap.Col >
+<ReactBootStrap.Row className="contactrow">
 
-<h2 className="contactheader">
+<ReactBootStrap.Col>
+<h4 className="contactheader">
 Contact<br/> Us
-</h2>
+</h4>
 
-<p className="contactminor">
-Feel free to contact or visit us.
- Beside are provided details for 
- contacting us, we would love to hear
- from you.
-</p>
+
+<h6 className="contactsubtitle">
+Email or visit us<br/>at our location,<br/>
+we would love to hear from you.
+</h6>
+
 </ReactBootStrap.Col>
 
 
-<ReactBootStrap.Col >
-<GrMail className="mailink" />
-<a className="endone" href='mailto:jack@semantic-ui.com'>
-Gardenapp@gmail.com
-</a>
-<AiFillPhone className="phoneink"/>
-<p className="endtwo">+234 0000000098</p>
+<ReactBootStrap.Col>
+<h4 className="lagos">Lagos, Nigeria</h4>
+<p>92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
+<GrPhone className="finalfix"  />  <h7> Phone Number: +234 0000000098 </h7><br/>
+<GrMail  className="finalfix"  /> <a  className="finalfix"  href='mailto:jack@semantic-ui.com'> Email Address: www.gardenapp@gmail.com</a>
 </ReactBootStrap.Col>
-
 
 </ReactBootStrap.Row>
 </Layout>
+
+
+
+
+
+
 
 < img  alt="loading"
   className="endimage"

@@ -18,9 +18,10 @@
 .largetext{
   position: relative ;
   color:"black";
-  font-size: 196px;
+  font-size: 178px;
   margin-top:108px;
   left: 17px;
+  font-family: 'Inter', sans-serif;
   
 }
 .dot{
@@ -186,7 +187,7 @@
   position: absolute;
   font-family: 'Inter', sans-serif;
   color: yellow;
-  margin-top: 130px;
+  
   font-size: 75px;
 
 }
@@ -194,7 +195,6 @@
   position: absolute;
   font-family: 'Inter', sans-serif;
   color: yellow;
-  margin-top: 350px;
   font-size: 42px;
 }
 .mailink{
@@ -224,11 +224,98 @@
   margin-left: 30px;
 }
 .endimage{
-  margin-top: 730px;
+  margin-top: 50px;
   width:1520px;
   height: 43vh;
   position: absolute;
 }
 .endrow{
-  margin-top: 820px;
+  margin-top: 130px;
+}
+
+.contactbackground{
+  position: absolute;
+  width:1530px;
+  height:715px;
+}
+.contactheader{
+  font-size: 100px;
+  font-family: 'Inter', sans-serif;
+  color: orangered;
+  
+}
+.contactsubtitle{
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+  color: orangered;
+  padding-top: 250px;
+}
+
+.contactrow{
+  padding-top: 120px;
+  padding-bottom: 45px;
+}
+.finalfix{
+  color: black;
+}
+.lagos{
+  padding-top: 20px;
+}
+.navbrand{
+  padding-left: 21px;
+}
+
+.navimage{
+  width:52px;
+  height:52px;
+}
+.gardenname{
+  font-size: 32px;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  padding-top: 12px;
+}
+.gardendot{
+  color: orange;
+}
+.aboutus{
+  padding-top: 19px;
+  color:whitesmoke;
+  font-family: 'Inter', sans-serif;
+}
+.contactus{
+  padding-top: 19px;
+  color:whitesmoke; 
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:734px) {
+
+  .nextimg{
+    display: none;
+  }
+  .homebackground{
+    width: 414px;
+    height:91vh;
+  }
+  .largetext{
+    font-size: 90px;
+    color: white;
+    padding-top: 40px;
+  }
+  .subtitle{
+    color: white;
+    font-size: 17px;
+    
+  }
+  .info{
+    color: white;
+  }
 }
