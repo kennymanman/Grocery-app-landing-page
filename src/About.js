@@ -27,13 +27,13 @@ export default function About() {
 Our startup was founded in 2020 during the Co-vid pandemic.<br/>
 Garden was created as a way to help people living in areas that<br/> 
 are a distance away from affordable groceries access them while<br/>
- still creating awareness for the grocery sellers.
+still creating awareness for the grocery sellers.
 Garden connects<br/> respective grocery sellers, farm owners, food-vendors to customers<br/>
- in their city.
+in their city.
 We at Garden saw the need to create this infrastructure<br/>
 to connect and solve this problem.
-
 </p>
+
 
 </Layout>
 

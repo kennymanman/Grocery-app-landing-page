@@ -16,7 +16,7 @@ return (
 <div>
 <Layout>
 
-<ReactBootStrap.Navbar expand="lg" fixed="top"
+<ReactBootStrap.Navbar className="navbar" expand="lg" fixed="top"
    >
 
 <ReactBootStrap.Navbar.Brand className="navbrand">
@@ -50,7 +50,7 @@ return (
 </LinkContainer>
 
 
-<LinkContainer style={{marginLeft:90}} to="/Contact">
+<LinkContainer  to="/Contact">
 <ReactBootStrap.Nav.Link >
  <p className="contactus">Contact</p>
  </ReactBootStrap.Nav.Link>

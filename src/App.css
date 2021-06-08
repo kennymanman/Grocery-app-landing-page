@@ -287,7 +287,7 @@
   padding-top: 19px;
   color:whitesmoke; 
   font-family: 'Inter', sans-serif;
-  
+  margin-left: 110px;
 }
 
 
@@ -296,26 +296,403 @@
 
 
 
-@media only screen and (max-width:734px) {
+
+
+
+
+@media only screen 
+and (min-width:320px)
+and (max-width:480px) {
 
   .nextimg{
     display: none;
   }
   .homebackground{
-    width: 414px;
-    height:91vh;
+    width: 409px;
+    height:685px;
   }
   .largetext{
-    font-size: 90px;
+    font-size: 85px;
     color: white;
-    padding-top: 40px;
+    padding-top: 30px;
   }
   .subtitle{
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     
   }
   .info{
     color: white;
+    font-size: 14px;
   }
-}
+  .navbrand{
+    padding-left: 2px;
+  }
+  .iconone{
+    color: white;
+    font-size: 39px;
+    margin-top: 26px;
+  }
+  .icontwo{
+    color: white;
+    font-size: 35px;
+  }
+  .sidetitle{
+    display: none;
+    color: black;
+    padding-left: 18px;
+    font-size: 24px;
+  }
+  .phone{
+    width:349px;
+    height:300px;
+    margin-top: 130px;
+    
+  }
+  .phonerow{
+    margin-top: 20px;
+  }
+  .phoneinfo{
+    display: none;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+  }
+  .quote{
+    font-size: 16px;
+    margin-top: 50px;
+    color: orangered;
+    
+  }
+  .line{
+    font-size: 16px;
+    margin-left: 152px;
+    color: black;
+  }
+  .groundimage{
+    width:409px;
+    height:317px;
+  }
+  .gardenname{
+    color: black;
+    font-size: 21px;
+  }
+  .groundtext{
+    font-size: 14px;
+  }
+  .groundicon{
+    font-size: 13px;
+  }
+  .footer{
+    font-size: 12px;
+  }
+  .groundrow{
+    margin-top: 230px;
+  }
+  .navbar{
+    background-color: white;
+  }
+  .aboutus{
+    color: black;
+  }
+  .contactus{
+    color: black;
+    margin-left: 0px;
+  }
+  .aboutheader{
+    font-size: 50px;
+  }
+  .abouttext{
+    font-size: 17px;
+    margin-top: 280px;
+  }
+  .aboutbackground{
+    width:409px;
+    height:115vh;
+  }
+  .nextbackground{
+    width:409px;
+  }
+  .founderheader{
+    font-size: 50px; 
+  }
+  .ceoimage{
+    width:200px;
+    height:200px;
+    margin-top: 1008px;
+  }
+  .name{
+    font-size: 19px;
+    margin-top: 999px;
+    color: white;
+  }
+  .ceo{
+    font-size: 16px;
+    margin-top: 1038px;
+    color: black;
+    
+  }
+  .contactbackground{
+    width: 400px;
+  }
+  .contactheader{
+    font-size: 50px;   
+  }
+  .contactsubtitle{
+    font-size: 36px;
+    padding-top: 130px;
+  }
+  .endimage{
+    width:400px;
+    margin-top: 70px;
+    height:46vh;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 768px) 
+  {
+
+   
+    .homebackground{
+      width: 768px;
+      height:920vh;
+    }
+    .largetext{
+      font-size: 85px;
+      color: black;
+      padding-top: 30px;
+    }
+    .subtitle{
+      color: black;
+      font-size: 15px;
+      
+    }
+    .info{
+      color: black;
+      font-size: 14px;
+    }
+    .navbrand{
+      padding-left: 2px;
+    }
+    .iconone{
+      color: black;
+      font-size: 39px;
+      margin-top: 26px;
+    }
+    .icontwo{
+      color: black;
+      font-size: 35px;
+    }
+    .sidetitle{
+      display: none;
+      color: black;
+      padding-left: 18px;
+      font-size: 24px;
+    }
+    .phone{
+      width:350px;
+      height:300px;
+      margin-top: 200px;
+      margin-left: 170px;
+    }
+    .phonerow{
+      margin-top: 20px;
+    }
+    .phoneinfo{
+      display: none;
+      color: black;
+      font-size: 13px;
+      text-align: center;
+    }
+    .quote{
+      font-size: 16px;
+      margin-top: 50px;
+      color:yellow;
+      text-align: center;
+      
+    }
+    .line{
+      font-size: 16px;
+      margin-left: 152px;
+      color: yellow;
+    }
+    .groundimage{
+      width:768px;
+      height:317px;
+    }
+    .gardenname{
+      color: black;
+      font-size: 21px;
+    }
+    .groundtext{
+      font-size: 14px;
+    }
+    .groundicon{
+      font-size: 13px;
+    }
+    .footer{
+      font-size: 12px;
+    }
+    .groundrow{
+      margin-top: 230px;
+    }
+    .navbar{
+      background-color: white;
+    }
+    .aboutus{
+      color: black;
+    }
+    .contactus{
+      color: black;
+      margin-left: 0px;
+    }
+    .aboutheader{
+      font-size: 50px;
+    }
+    .abouttext{
+      font-size: 17px;
+      margin-top: 280px;
+    }
+    .aboutbackground{
+      width:768px;
+      height:115vh;
+    }
+    .nextbackground{
+      width:768px;
+    }
+    .founderheader{
+      font-size: 50px; 
+    }
+    .ceoimage{
+      width:350px;
+      height:300px;
+      margin-top: 1008px;
+    }
+    .name{
+      font-size: 19px;
+      margin-top: 999px;
+      color: white;
+    }
+    .ceo{
+      font-size: 16px;
+      margin-top: 1038px;
+      color: black;
+      
+    }
+    .contactbackground{
+      width: 768px;
+    }
+    .contactheader{
+      font-size: 50px;   
+    }
+    .contactsubtitle{
+      font-size: 36px;
+      padding-top: 130px;
+    }
+    .endimage{
+      width:768px;
+      margin-top: 70px;
+      height:46vh;
+    }
+  }  
+
+
+
+
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  {
+
+
+    .nextimg{
+      width:570px;
+    }
+
+    .homebackground{
+      width:1024px;
+      height:125vh;
+    }
+    .groundimage{
+      width:1024px;
+    }
+    .largetext{
+      font-size: 120px;
+    }
+    .subtitle{
+      font-size: 19px;
+    }
+    .info{
+      font-size: 13px;
+    }
+    .sidetitle{
+      display: none;
+    }
+    .phone{
+      width:400px;
+      height:400px;
+    }
+    .phoneinfo{
+      font-size: 22px;
+    }
+    .quote{
+      font-size: 19px;
+    }
+    .line{
+      font-size: 18px;
+    }
+    .aboutbackground{
+      width:1024px;
+    }
+    .nextbackground{
+      width:1024px;
+      margin-top:800px;
+      height: 80vh;
+    }
+    .founderheader{
+     margin-top: 850px; 
+    }
+    .name{
+      margin-top: 1085px;
+      color: white;
+    }
+    .ceo{
+      margin-top: 1120px;
+      color:black
+    }
+    .contactbackground{
+      width:1024px;
+    }
+    .endimage{
+      width:1024px;
+    }
+    .groundrow{
+      margin-top: 350px;
+    }
+    .endrow{
+      margin-top: 210px;
+    }
+  }
+
+
+  
+
+
