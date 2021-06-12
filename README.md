@@ -1,16 +1,17 @@
 
 # Grocery app landing website
-React  website built as a landing website for an ecommerce app. Download links are provided to allow users download the app on both ios and android devices. Live site: www.gardenstoreapp.com
+React  website built as a landing website for an ecommerce app. Download links are provided to allow users download the app on both ios and android devices.  
+ Live site: www.gardenstoreapp.com
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![icon](https://user-images.githubusercontent.com/61712644/121789828-52211500-cb64-11eb-90e9-8fa567d55d09.png)
 
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![zash](https://user-images.githubusercontent.com/61712644/121789737-60226600-cb63-11eb-9384-6a2c84eb9efb.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
   
 ## Run Locally
 
@@ -26,11 +27,7 @@ Go to the project directory
   cd Grocery-app-landing-page
 ```
 
-Install dependencies
 
-```bash
-  npm install
-```
 
 Start the server
 
@@ -47,6 +44,7 @@ Start the server
   
 ## Appendix
 
-This project is geared towards the technological advancement in the agricultural sector
+This project is geared towards the technological advancement of
+ the agricultural sector
 
   
