@@ -24,7 +24,7 @@ export default function About() {
 <h2 className="aboutheader">About Garden<h7 className="dotdot">.</h7></h2>
 
 <p className="abouttext">
-Our startup was founded in 2020 during the Co-vid pandemic.<br/>
+Our startup was founded in 2020 during the Covid pandemic.<br/>
 Garden was created as a way to help people living in areas that<br/> 
 are a distance away from affordable groceries access them while<br/>
 still creating awareness for the grocery sellers.

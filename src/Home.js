@@ -11,16 +11,28 @@ import MobileStoreButton from 'react-mobile-store-button'
 import { FaAppStoreIos } from "react-icons/fa"
 import { FaGooglePlay } from "react-icons/fa"
 import final from "./Imaged/final.jpg"
-
+import linal from "./Imaged/linal.jpg"
+import {GiFruitBowl} from "react-icons/gi";
+import {FiTruck} from "react-icons/fi";
+import {FiShoppingBag} from "react-icons/fi";
+import {GrTarget} from "react-icons/gr"
 
 
 function Home() {
-  
+ 
+  const popover = (
+    <ReactBootStrap.Popover id="popover-basic">
+      <ReactBootStrap.Popover.Title as="h3">Popover right</ReactBootStrap.Popover.Title>
+      <ReactBootStrap.Popover.Content>
+        And here's some <strong>amazing</strong> content. It's very engaging.
+        right?
+      </ReactBootStrap.Popover.Content>
+    </ReactBootStrap.Popover>
+  ); 
 
 
-const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
-    
-const androidUrl =  'https://www.youtube.com/watch?v=oNu3fYMu28M';
+
+
     
 return(
     
@@ -82,6 +94,56 @@ fluid
 </ReactBootStrap.Row>
 
 
+
+
+
+
+<Layout>
+
+<ReactBootStrap.Row style={{marginLeft:80}} >
+
+
+<ReactBootStrap.Col>
+
+  <GiFruitBowl className="layericons" />
+ <h2 className="layertext">Quality groceries</h2>
+</ReactBootStrap.Col>
+
+
+
+<ReactBootStrap.Col>
+<FiTruck  className="layericons" />
+<h2 className="layertext">Quick delivery</h2>
+</ReactBootStrap.Col>
+
+
+
+<ReactBootStrap.Col>
+<FiShoppingBag className="layericons" /> 
+<h2 className="layertext">Easy shopping</h2>
+</ReactBootStrap.Col>
+
+</ReactBootStrap.Row>
+</Layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*
 <Layout>
   <ReactBootStrap.Row className="phonerow">
 
@@ -89,7 +151,7 @@ fluid
 
 < img  alt="loading"
   className="phone"
-  fluid src={final}  />
+  fluid src={linal}  />
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col xs={10} md={6}>
@@ -99,19 +161,32 @@ fluid
 
 
   </ReactBootStrap.Row>
-</Layout>
+</Layout> */}
  
 
 
-
+{/*}
   <h3 className="quote">"Garden helped me with my grocery shopping during the Covid-19 pandemic"</h3>
-  <h5 className="line">- Stella</h5>
+  <h5 className="line">- Stella</h5> */}
+
+<h2 className="quote">Want to Sell your groceries instead?</h2>
+
+
+<ReactBootStrap.OverlayTrigger trigger="hover" placement="right" overlay={popover}>
+<h1 style={{position:"relative", textAlign:'center', color:"lightgreen", fontSize:100}}>o</h1>
+</ReactBootStrap.OverlayTrigger>
+
+
 
   < img  alt="loading"
   className="groundimage"
   fluid src={papa}  />
 
 <Layout>
+
+
+
+
 
 <ReactBootStrap.Row className="groundrow ">
 

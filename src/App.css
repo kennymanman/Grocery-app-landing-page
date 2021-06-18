@@ -21,21 +21,32 @@
   font-size: 178px;
   margin-top:108px;
   left: 17px;
-  font-family: 'Inter', sans-serif;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   
 }
 .dot{
   color:orange;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 200px;
 }
 
 .subtitle{
   margin-left: 10px;
   margin-top:86px;
-  font-family: 'Inter', sans-serif;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .info{
   margin: 10px;
+  
+  
+  
 }
 .sidetitle{
   position: relative;
@@ -67,7 +78,7 @@
   margin-top: 50px;
 }
 .phone{
-  width: 400px;
+  width: 500px;
   height:55vh;
   
 }
@@ -81,19 +92,29 @@
   font-family: 'Inter', sans-serif;
 }
 .groundimage{
-  width:1520px;
+  background-size: "cover";
   height: 43vh;
   position: absolute;
   margin-top: 180px;
 }
 .quote{
   position: relative;
-  font-size: 32px;
+  font-size: 52px;
   color: yellow;
   text-align: center;
-  margin-top: 180px;
-  font-family: 'Inter', sans-serif;
+  margin-top: 245px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  
 }
+
+.linkbutton{
+  position: relative;
+  align-self: center;
+}
+
+
 .line{
   position: relative;
   color: yellow;
@@ -108,6 +129,7 @@
 
 .groundtext{
   color: aliceblue;
+  
 }
 .groundicon{
   color:aliceblue;
@@ -128,9 +150,11 @@
 .aboutheader{
   font-size: 75px;
   position: absolute;
-  font-family: 'Inter', sans-serif;
   color: yellow;
   margin-top: 150px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .dotdot{
@@ -139,10 +163,12 @@
 
 .abouttext{
   position: absolute;
-  font-family: 'Inter', sans-serif;
   color: yellow;
   margin-top: 320px;
   font-size: 30px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .nextbackground{
   width: 1520px;
@@ -153,24 +179,30 @@
 }
 .founderheader{
   position: absolute;
-  font-family: 'Inter', sans-serif;
   color: yellow;
   margin-top: 790px; 
   font-size: 75px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .name{
   position: absolute;
-  font-family: 'Inter', sans-serif; 
   margin-top: 1030px;
   font-size: 30px;
   color:yellow;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .ceo{
   position: absolute;
-  font-family: 'Inter', sans-serif; 
   margin-top: 1070px;
   font-size: 21px;
   color: yellow;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .ceoimage{
   height:325px;
@@ -185,10 +217,11 @@
 }
 .contactheader{
   position: absolute;
-  font-family: 'Inter', sans-serif;
   color: yellow;
-  
   font-size: 75px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 
 }
 .contactminor{
@@ -246,9 +279,11 @@
 }
 .contactsubtitle{
   font-size: 50px;
-  font-family: 'Inter', sans-serif;
   color: orangered;
   padding-top: 250px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .contactrow{
@@ -272,23 +307,56 @@
 .gardenname{
   font-size: 32px;
   color: black;
-  font-family: 'Inter', sans-serif;
   padding-top: 12px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
 }
+
 .gardendot{
   color: orange;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .aboutus{
   padding-top: 19px;
   color:whitesmoke;
-  font-family: 'Inter', sans-serif;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .contactus{
   padding-top: 19px;
   color:whitesmoke; 
-  font-family: 'Inter', sans-serif;
   margin-left: 110px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
+.layericons{
+  color: white;
+  font-size: 105px;
+  margin-top: 440px;
+  margin-left: 50px;
+  
+}
+.layertext{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -433,7 +501,7 @@ and (max-width:480px) {
     
   }
   .contactbackground{
-    width: 400px;
+    width: 409px;
   }
   .contactheader{
     font-size: 50px;   
@@ -443,7 +511,7 @@ and (max-width:480px) {
     padding-top: 130px;
   }
   .endimage{
-    width:400px;
+    width:409px;
     margin-top: 70px;
     height:46vh;
   }
@@ -692,6 +760,15 @@ and (max-width:480px) {
     }
   }
 
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1280px) 
+  {
+
+
+    
+  }
 
   
 
