@@ -73,6 +73,12 @@
   margin: 27px; 
   left:149px;
 }
+.iconthree{
+font-size: 83px;
+margin-left: 530px;
+position: absolute;
+}
+
 
 .pagerow{
   margin-top: 50px;
@@ -93,6 +99,7 @@
 }
 .groundimage{
   background-size: "cover";
+  width: 1520px;
   height: 43vh;
   position: absolute;
   margin-top: 180px;
@@ -159,6 +166,9 @@
 
 .dotdot{
   color:orange;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .abouttext{

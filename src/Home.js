@@ -16,19 +16,17 @@ import {GiFruitBowl} from "react-icons/gi";
 import {FiTruck} from "react-icons/fi";
 import {FiShoppingBag} from "react-icons/fi";
 import {GrTarget} from "react-icons/gr"
+import {RiRecycleFill} from "react-icons/ri";
+
 
 
 function Home() {
  
-  const popover = (
-    <ReactBootStrap.Popover id="popover-basic">
-      <ReactBootStrap.Popover.Title as="h3">Popover right</ReactBootStrap.Popover.Title>
-      <ReactBootStrap.Popover.Content>
-        And here's some <strong>amazing</strong> content. It's very engaging.
-        right?
-      </ReactBootStrap.Popover.Content>
-    </ReactBootStrap.Popover>
-  ); 
+  const renderTooltip = (props) => (
+    <ReactBootStrap.Tooltip style={{position: "absolute"}} id="button-tooltip" {...props}>
+      Simple tooltip
+    </ReactBootStrap.Tooltip>
+  );
 
 
 
@@ -77,6 +75,8 @@ fluid
 <ReactBootStrap.Row className="pagerow">
   <FaAppStoreIos className="iconone" />
   <FaGooglePlay className="icontwo" />
+
+  <RiRecycleFill className="iconthree" />
 </ReactBootStrap.Row>
 
 </Layout>
@@ -106,21 +106,21 @@ fluid
 <ReactBootStrap.Col>
 
   <GiFruitBowl className="layericons" />
- <h2 className="layertext">Quality groceries</h2>
+ <h2 className="layertext">Quality Groceries</h2>
 </ReactBootStrap.Col>
 
 
 
 <ReactBootStrap.Col>
 <FiTruck  className="layericons" />
-<h2 className="layertext">Quick delivery</h2>
+<h2 className="layertext">Quick Delivery</h2>
 </ReactBootStrap.Col>
 
 
 
 <ReactBootStrap.Col>
 <FiShoppingBag className="layericons" /> 
-<h2 className="layertext">Easy shopping</h2>
+<h2 className="layertext">Easy Shopping</h2>
 </ReactBootStrap.Col>
 
 </ReactBootStrap.Row>
@@ -142,38 +142,15 @@ fluid
 
 
 
-
-{/*
-<Layout>
-  <ReactBootStrap.Row className="phonerow">
-
-<ReactBootStrap.Col xs={8} md={6}>
-
-< img  alt="loading"
-  className="phone"
-  fluid src={linal}  />
-</ReactBootStrap.Col>
-
-<ReactBootStrap.Col xs={10} md={6}>
-  <p className="phoneinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-</ReactBootStrap.Col>
-
-
-  </ReactBootStrap.Row>
-</Layout> */}
- 
-
-
-{/*}
-  <h3 className="quote">"Garden helped me with my grocery shopping during the Covid-19 pandemic"</h3>
-  <h5 className="line">- Stella</h5> */}
-
 <h2 className="quote">Want to Sell your groceries instead?</h2>
 
 
-<ReactBootStrap.OverlayTrigger trigger="hover" placement="right" overlay={popover}>
-<h1 style={{position:"relative", textAlign:'center', color:"lightgreen", fontSize:100}}>o</h1>
+<ReactBootStrap.OverlayTrigger style={{position:"absolute"}}
+    placement="right"
+    delay={{ show: 250, hide: 400 }}
+    overlay={renderTooltip}
+  >
+<h1 style={{position:"relative", textAlign:'center', color:"white", fontSize:100}}>o</h1>
 </ReactBootStrap.OverlayTrigger>
 
 
