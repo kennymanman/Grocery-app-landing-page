@@ -186,7 +186,7 @@ fluid
 
 
 <div className="finalbutton">
-<ReactBootStrap.Button lg variant="success">Start Selling</ReactBootStrap.Button>
+<ReactBootStrap.Button href="http://www.gardenstorevendor.com" target= "blank" lg variant="success">Start Selling</ReactBootStrap.Button>
 </div>
 
 
