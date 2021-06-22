@@ -35,16 +35,19 @@
 }
 
 .subtitle{
-  margin-left: 10px;
-  margin-top:86px;
-  font-family: alegreya-sans, sans-serif;
-  font-weight: 800;
+  
+  margin-top:50px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
   font-style: normal;
+  font-size: 23px;
 }
 
 .info{
-  margin: 10px;
   
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   
   
 }
@@ -81,7 +84,7 @@ position: absolute;
 
 
 .pagerow{
-  margin-top: 50px;
+  margin-top: 95px;
 }
 .phone{
   width: 500px;
@@ -157,7 +160,7 @@ position: absolute;
 .aboutheader{
   font-size: 75px;
   position: absolute;
-  color: yellow;
+  color: black;
   margin-top: 150px;
   font-family: muli, sans-serif;
   font-weight: 900;
@@ -200,7 +203,7 @@ position: absolute;
   position: absolute;
   margin-top: 1030px;
   font-size: 30px;
-  color:yellow;
+  color:white;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -209,7 +212,7 @@ position: absolute;
   position: absolute;
   margin-top: 1070px;
   font-size: 21px;
-  color: yellow;
+  color: black;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -267,9 +270,9 @@ position: absolute;
   margin-left: 30px;
 }
 .endimage{
-  margin-top: 50px;
+  
   width:1520px;
-  height: 43vh;
+  height: 345px;
   position: absolute;
 }
 .endrow{
@@ -284,12 +287,12 @@ position: absolute;
 .contactheader{
   font-size: 100px;
   font-family: 'Inter', sans-serif;
-  color: orangered;
+  color: black;
   
 }
 .contactsubtitle{
   font-size: 50px;
-  color: orangered;
+  color: black;
   padding-top: 250px;
   font-family: muli, sans-serif;
   font-weight: 900;
@@ -356,9 +359,15 @@ position: absolute;
   color: white;
 }
 
+.largeicontow{
+  padding-left: 80px;
+}
 
-
-
+.finalbutton{
+  text-align: center;
+  position:relative;
+  margin-top: 19px;
+}
 
 
 

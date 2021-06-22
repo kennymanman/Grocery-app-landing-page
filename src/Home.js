@@ -22,11 +22,9 @@ import {RiRecycleFill} from "react-icons/ri";
 
 function Home() {
  
-  const renderTooltip = (props) => (
-    <ReactBootStrap.Tooltip style={{position: "absolute"}} id="button-tooltip" {...props}>
-      Simple tooltip
-    </ReactBootStrap.Tooltip>
-  );
+  const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+
+  const androidUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
 
 
 
@@ -73,10 +71,48 @@ fluid
   </p>
 
 <ReactBootStrap.Row className="pagerow">
+
+  {/*
   <FaAppStoreIos className="iconone" />
   <FaGooglePlay className="icontwo" />
+  */}
 
-  <RiRecycleFill className="iconthree" />
+
+<div>
+
+<MobileStoreButton
+    
+   width={145}
+   height={54}
+                  store="ios"
+                  url={iOSUrl}
+                  linkProps={{ title: 'iOS Store Button' }}
+                />
+
+
+<MobileStoreButton 
+   
+    height={65}
+    width={210}
+    
+                  store="android"
+                  url={androidUrl}
+                  linkProps={{ title: 'android Store Button' }}
+                />
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+  <RiRecycleFill className="iconthree" /> 
 </ReactBootStrap.Row>
 
 </Layout>
@@ -100,7 +136,7 @@ fluid
 
 <Layout>
 
-<ReactBootStrap.Row style={{marginLeft:80}} >
+<ReactBootStrap.Row className="largeicontow" >
 
 
 <ReactBootStrap.Col>
@@ -145,13 +181,13 @@ fluid
 <h2 className="quote">Want to Sell your groceries instead?</h2>
 
 
-<ReactBootStrap.OverlayTrigger style={{position:"absolute"}}
-    placement="right"
-    delay={{ show: 250, hide: 400 }}
-    overlay={renderTooltip}
-  >
-<h1 style={{position:"relative", textAlign:'center', color:"white", fontSize:100}}>o</h1>
-</ReactBootStrap.OverlayTrigger>
+
+
+
+
+<div className="finalbutton">
+<ReactBootStrap.Button lg variant="success">Start Selling</ReactBootStrap.Button>
+</div>
 
 
 

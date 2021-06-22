@@ -6,7 +6,7 @@ import papa from "./Imaged/papa.png"
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
-import tion from "./Imaged/tion.jpg"
+import fapa from "./Imaged/fapa.jpg"
 import hpi from "./Imaged/hpi.jpg"
 
 
@@ -20,6 +20,7 @@ export default function About() {
 < img  alt="loading"
   className="aboutbackground"
   fluid src={hpi}  />
+
 <Layout>
 <h2 className="aboutheader">About Garden<h7 className="dotdot">.</h7></h2>
 
@@ -39,7 +40,11 @@ to connect and solve this problem.
 
 < img  alt="loading"
   className="nextbackground"
-  fluid src={tion}  />
+  fluid src={fapa}  />
+
+
+
+  
 
   <Layout>
 <ReactBootStrap.Row className="ceorow">
@@ -61,6 +66,9 @@ src={pase}  />
 
 </ReactBootStrap.Row>
   </Layout>
+
+  
+
 
 
 

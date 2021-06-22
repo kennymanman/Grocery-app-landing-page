@@ -16,9 +16,7 @@ export default function Contact() {
 
 <div>
 
-< img  alt="loading"
-className="contactbackground"
-fluid src={hpi}  />
+<div style={{backgroundColor:"#009e60", height:721}}>
 
 
 <Layout>
@@ -48,7 +46,7 @@ we would love to hear from you.
 </ReactBootStrap.Row>
 </Layout>
 
-
+</div>
 
 
 
