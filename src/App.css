@@ -1,3 +1,204 @@
+.homepagediv{
+
+  background-image: url("./Imaged/poal.jpg");
+  height:1800px;
+
+}
+
+.bigsection{
+  background-color: #fad6a5;
+  width:700px;
+  height: 730px;
+  padding-top: 73px;
+}
+
+.biggardentext{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 170px; 
+  padding-top: 30px;
+  margin-left:15px;
+}
+.smallgardentext{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  padding-top: 12px;
+  margin-left:10px;
+  
+}
+.gardenbigdot{
+  color:orange;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 190px;
+}
+.downloadrow{
+  padding-top: 200px;
+}
+.recycleicon{
+  font-size: 90px;
+  margin-left: 170px;
+  
+}
+.largeicon{
+  font-size: 110px;
+  color: white;
+  text-align: center;
+}
+.largeicontext{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+.largeiconcol{
+  text-align: center;
+}
+.largeiconrow{
+  padding-top: 300px;
+}
+.selltext{
+  text-align: center;
+  color:white;
+  font-size: 60px;
+  padding-top: 190px;
+  font-family: liberation-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+.sellminor{
+  text-align: center;
+  color:yellow;
+  font-size: 24px;
+}
+.bottomheader{
+  color:yellow;
+  
+  
+}
+.paymenticons{
+  font-size: 45px;
+  
+  margin-top: 10px;
+}
+.paymenticonstwo{
+  font-size: 25px;
+  margin:3px;
+  margin-top: 10px;
+}
+.corporate{
+  font-size: 14px;
+  padding-top: 50px;
+}
+.bottomrow{
+  padding-top: 65px;
+}
+.socialicons{
+  color:white;
+  font-size: 20px;
+  margin:13px;
+}
+
+.bottomtext{
+  color: yellow;
+  font-size: 19px;
+  
+}
+.gardenbottom{
+  font-size: 20px;
+  color: yellow;
+}
+.abouttitle{
+  font-size: 85px;
+  padding-top: 100px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 90px; 
+  color: black;
+  text-align: center;
+}
+.abouttitledot{
+  color:orange;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+}
+.aboutfirstimage{
+  width:450px;
+  height:350px;
+  padding-top: 15px;
+}
+.shoptext{
+  text-align: center;
+  font-size: 38px;
+  padding-top: 140px;
+  color: white;
+}
+
+
+.aboutpagediv{
+
+  background-color: white;
+  height:800px;
+
+}
+.aboutmessage{
+  color: black;
+  font-size: 23px;
+  padding-top: 50px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.nextaboutdiv{
+  background-image: url("./Imaged/fove.jpg");
+  
+  height:650px; 
+  margin: 25px;
+  margin-top: 40px;
+}
+.ceopic{
+  width:400px;
+  height:400px;
+  margin:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,7 +285,7 @@ position: absolute;
 
 
 .pagerow{
-  margin-top: 95px;
+  margin-top: 195px;
 }
 .phone{
   width: 500px;
@@ -192,7 +393,7 @@ position: absolute;
 }
 .founderheader{
   position: absolute;
-  color: yellow;
+  color: black;
   margin-top: 790px; 
   font-size: 75px;
   font-family: muli, sans-serif;
@@ -203,7 +404,7 @@ position: absolute;
   position: absolute;
   margin-top: 1030px;
   font-size: 30px;
-  color:white;
+  color:yellow;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -212,7 +413,7 @@ position: absolute;
   position: absolute;
   margin-top: 1070px;
   font-size: 21px;
-  color: black;
+  color: white;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -320,10 +521,11 @@ position: absolute;
 .gardenname{
   font-size: 32px;
   color: black;
-  padding-top: 12px;
+  padding-top: 10px;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
+  
 
 }
 
@@ -335,14 +537,14 @@ position: absolute;
 }
 .aboutus{
   padding-top: 19px;
-  color:whitesmoke;
+  color:black;
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 .contactus{
   padding-top: 19px;
-  color:whitesmoke; 
+  color:black; 
   margin-left: 110px;
   font-family: muli, sans-serif;
   font-weight: 900;
