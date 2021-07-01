@@ -1,103 +1,137 @@
 import React from 'react'
-import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
-import papa from "./Imaged/papa.png"
+import Layout from "./Layout"
+import {GrPhone} from "react-icons/gr"
+
+import {Icon,InlineIcon} from "@iconify/react"
+import mastercardIcon from "@iconify-icons/logos/mastercard"
+import visaIcon from '@iconify-icons/logos/visa';
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
-import hpi from "./Imaged/hpi.jpg"
-import {GrPhone} from "react-icons/gr"
+import MobileStoreButton from 'react-mobile-store-button'
+
 
 
 export default function Contact() {
-  return (
 
 
+    const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+
+    const androidUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+
+    return (
+        <div className="contactdiv">
+
+<Layout>
+<h2 className="aboutusbigtitle">Contact us</h2>
+
+<hr style={{ borderColor:"black", backgroundColor:"black", height:3, marginTop:15}} /> 
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+<h5 className="contacttext">
+Email or visit us at our location,
+we would love to hear from you.
+</h5>
+</ReactBootStrap.Col>
+
+
+<ReactBootStrap.Col>
+<h4 className="lagostext">Lagos, Nigeria</h4>
+<h6 className="lagosaddress">92, Lanre Awolokun Gbagada phase 2<br/> Lagos, Nigeria.</h6>
+
+
+ < GrPhone className="phonelogo" /> <h7 className="textinfo">Phone number: +234 000000231</h7>  <br/> 
+ < GrMail className="phonelogo" /> <a className="textinfo" href='mailto:jack@semantic-ui.com'>Email: gardenstoreapp@gmail.com</a>
+</ReactBootStrap.Col>
+
+
+</ReactBootStrap.Row>
+
+
+</Layout>
+
+
+
+
+
+
+
+
+    <div style={{backgroundColor:"#2e8b57" , height:300, marginTop:180}}>
+<Layout>
+
+<ReactBootStrap.Row className="bottomrow">
+
+<ReactBootStrap.Col>
+
+<h2 className="bottomheader">Garden.</h2>
+
+
+<ReactBootStrap.Row>
+< GrInstagram className="socialicons" />
+< GrTwitter className="socialicons" />
+ <GrMail className="socialicons" />
+</ReactBootStrap.Row>
+
+
+
+<Icon block className="paymenticons" icon={mastercardIcon} />
+<Icon className="paymenticonstwo" icon={visaIcon} />
+
+
+
+
+
+
+<p className="corporate">© 2021 Garden store. subsidiary of August.</p>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+<h2 className="bottomheader">info</h2>
+
+<h5 className="bottomtext">Meet our founder</h5>
+<h5 className="bottomtext">Contact us</h5>
+    
+</ReactBootStrap.Col>
+
+
+<ReactBootStrap.Col>
+<h3 className="gardenbottom">Garden. is dedicated to keeping the earth green & clean.</h3>
 
 <div>
+<MobileStoreButton
+    
+   width={145}
+   height={54}
 
-<div style={{backgroundColor:"#009e60", height:721}}>
-
-
-<Layout>
-<ReactBootStrap.Row className="contactrow">
-
-<ReactBootStrap.Col>
-<h4 className="contactheader">
-Contact<br/> Us
-</h4>
+   store="ios"
+   url={iOSUrl}
+   linkProps={{ title: 'iOS Store Button' }}
+                />
 
 
-<h6 className="contactsubtitle">
-Email or visit us<br/>at our location,<br/>
-we would love to hear from you.
-</h6>
+<MobileStoreButton 
+   
+    height={65}
+    width={200}
+    
+    store="android"
+    url={androidUrl}
+    linkProps={{ title: 'android Store Button' }}
+                />
 
-</ReactBootStrap.Col>
+</div>
 
-
-<ReactBootStrap.Col>
-<h4 className="lagos">Lagos, Nigeria</h4>
-<p>92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
-<GrPhone className="finalfix"  />  <h7> Phone Number: +234 0000000098 </h7><br/>
-<GrMail  className="finalfix"  /> <a  className="finalfix"  href='mailto:jack@semantic-ui.com'> Email Address: www.gardenapp@gmail.com</a>
 </ReactBootStrap.Col>
 
 </ReactBootStrap.Row>
 </Layout>
 
-</div>
-
-
-
-
-
-< img  alt="loading"
-  className="endimage"
-  fluid src={papa}  />
-
-<Layout>
-
-<ReactBootStrap.Row className="endrow ">
-
-<ReactBootStrap.Col>
-<h2 className="groundtext">Garden.</h2>
-<GrInstagram className="groundicon" />
-<GrTwitter className="groundicon" />
- <GrMail className="groundicon" />
- <p className="footer">© 2021 Garden <br/> Lagos, Nigeria</p>
-
-</ReactBootStrap.Col>
-
-
-
-<ReactBootStrap.Col>
-<h3  className="groundtext"> About Us</h3>
-<a className="groundtext"  href="/About">Our aim</a> <br/>
-<a className="groundtext"  href="/About">Meet the founder</a>
-</ReactBootStrap.Col>
-
-<ReactBootStrap.Col>
-
-<h3 className="groundtext" > Contact Us</h3>
-<p className="groundtext" >Phone Number: +234 0000000098  
-
-<br/>
-<a  className="groundtext" href='mailto:jack@semantic-ui.com'>
-Email Address: www.gardenapp.com</a>
-<br/>
-<p className="groundtext">Address: 92, Lanre Awolokun Gbagada phase 2<br/>Lagos, Nigeria.</p>
-<br/>
-</p>
-
-
-</ReactBootStrap.Col>
-</ReactBootStrap.Row>
-</Layout>
-
-
-</div>
-
-)
-
+</div> 
+ 
+        </div>
+    )
 }

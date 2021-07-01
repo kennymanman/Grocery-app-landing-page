@@ -1,7 +1,7 @@
 .homepagediv{
 
   background-image: url("./Imaged/poal.jpg");
-  height:1800px;
+  height:1880px;
 
 }
 
@@ -45,7 +45,7 @@
   
 }
 .largeicon{
-  font-size: 110px;
+  font-size: 90px;
   color: white;
   text-align: center;
 }
@@ -58,12 +58,12 @@
   text-align: center;
 }
 .largeiconrow{
-  padding-top: 300px;
+  padding-top: 200px;
 }
 .selltext{
   text-align: center;
   color:white;
-  font-size: 60px;
+  font-size: 50px;
   padding-top: 190px;
   font-family: liberation-sans, sans-serif;
   font-weight: 700;
@@ -119,8 +119,8 @@
   font-weight: 900;
   font-style: normal;
   font-size: 90px; 
-  color: black;
-  text-align: center;
+  color: white;
+  
 }
 .abouttitledot{
   color:orange;
@@ -130,386 +130,198 @@
   font-size: 80px;
 }
 .aboutfirstimage{
-  width:450px;
-  height:350px;
+  width:400px;
+  height:450px;
   padding-top: 15px;
 }
 .shoptext{
   text-align: center;
-  font-size: 38px;
-  padding-top: 140px;
+  font-size: 68px;
+  padding-top: 170px;
   color: white;
+  
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 
 .aboutpagediv{
 
-  background-color: white;
-  height:800px;
+  background-image: url("./Imaged/poal.jpg");
+  height:1969px;
 
 }
 .aboutmessage{
-  color: black;
+  color: white;
   font-size: 23px;
-  padding-top: 50px;
+  padding-top: 10px;
   font-family: acumin-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 .nextaboutdiv{
-  background-image: url("./Imaged/fove.jpg");
-  
+ 
   height:650px; 
-  margin: 25px;
+  margin: 10px;
   margin-top: 40px;
+  
 }
 .ceopic{
   width:400px;
   height:400px;
-  margin:20px;
+  margin:2px;
+  margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.homebackground{
- background-size: "cover";
- 
- width: 1520px;
- position: absolute ;
-}
-
-.nextimg{
-
-  position: absolute;
-  width:728px;
-  height:58vh;
-}
-
-.largetext{
-  position: relative ;
-  color:"black";
-  font-size: 178px;
-  margin-top:108px;
-  left: 17px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  
-}
-.dot{
-  color:orange;
-  font-family: alegreya-sans, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 200px;
-}
-
-.subtitle{
-  
-  margin-top:50px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 23px;
-}
-
-.info{
-  
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  
-  
-}
-.sidetitle{
-  position: relative;
-  color: aliceblue;
-  margin-top: 120px;
-  font-size: 37px;
-}
-
-.dottwo{
-  color: orange;
-}
-
-.iconone{
-
-  position: absolute;
-  font-size: 50px;
-  margin:20px;
-  
-}
-
-.icontwo{
-  position: absolute;
-  font-size: 40px;
-  margin: 27px; 
-  left:149px;
-}
-.iconthree{
-font-size: 83px;
-margin-left: 530px;
-position: absolute;
-}
-
-
-.pagerow{
-  margin-top: 195px;
-}
-.phone{
-  width: 500px;
-  height:55vh;
-  
-}
-.phonerow{
-  margin-top: 290px; 
-}
-.phoneinfo{
-  color:yellow;
-  font-size: 30px;
-  margin-top: 20px;
-  font-family: 'Inter', sans-serif;
-}
-.groundimage{
-  background-size: "cover";
-  width: 1520px;
-  height: 43vh;
-  position: absolute;
-  margin-top: 180px;
-}
-.quote{
-  position: relative;
-  font-size: 52px;
-  color: yellow;
-  text-align: center;
-  margin-top: 245px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  
-}
-
-.linkbutton{
-  position: relative;
-  align-self: center;
-}
-
-
-.line{
-  position: relative;
-  color: yellow;
-  text-align: center;
-  margin-left: 600px;
-  font-size: 28px;
-
-}
-.groundrow{
-  margin-top: 260px;
-}
-
-.groundtext{
-  color: aliceblue;
-  
-}
-.groundicon{
-  color:aliceblue;
-  font-size: 20px;
-  margin:7px;
-}
-.footer{
-  margin-top: 70px;
-  color: aliceblue;
-}
-
-.aboutbackground{
-  width: 1520px;
-  height: 110vh;
-  position: absolute ;
-
-}
-.aboutheader{
-  font-size: 75px;
-  position: absolute;
-  color: black;
-  margin-top: 150px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.dotdot{
-  color:orange;
-  font-family: alegreya-sans, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.abouttext{
-  position: absolute;
-  color: yellow;
-  margin-top: 320px;
-  font-size: 30px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-.nextbackground{
-  width: 1520px;
-  height: 110vh;
-  position: absolute ;
-  margin-top: 720px;
-
-}
-.founderheader{
-  position: absolute;
-  color: black;
-  margin-top: 790px; 
-  font-size: 75px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-.name{
-  position: absolute;
-  margin-top: 1030px;
-  font-size: 30px;
-  color:yellow;
-  font-family: muli, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-.ceo{
-  position: absolute;
-  margin-top: 1070px;
-  font-size: 21px;
+.aboutsubtitle{
+  padding-top: 30px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size:65px;
   color: white;
-  font-family: muli, sans-serif;
-  font-weight: 900;
+}
+.founderhead{
+  color:white;
+  font-size: 65px;
+  padding-top: 50px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
-.ceoimage{
-  height:325px;
-  margin-top:857px;
-  width:350px;
-}
-.contactbackground{
-  width: 1520px;
-  height:110vh;
-  position: absolute;
-  background-size: "cover"
-}
-.contactheader{
-  position: absolute;
-  color: yellow;
-  font-size: 75px;
-  font-family: muli, sans-serif;
-  font-weight: 900;
+.founderspeech{
+  color: white;
+  padding-top: 160px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
   font-style: normal;
-
-}
-.contactminor{
-  position: absolute;
-  font-family: 'Inter', sans-serif;
-  color: yellow;
-  font-size: 42px;
-}
-.mailink{
-  position: absolute;
-  margin-top: 370px;
   font-size: 23px;
-  color: aliceblue;
 }
-.phoneink{
-  position: absolute;
-  margin-top: 440px;
-  font-size: 26px; 
-  color: aliceblue;
+.foundername{
+  color: white;
+  font-size: 23px;
+  padding-top: 70px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-.endone{
-  position: absolute;
-  font-size: 19px;
-  margin-top: 365px;
-  color: aliceblue;
-  margin-left: 30px;
+.madeeasytext{
+  color:white;
+  text-align:center;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 70px;
+  padding-top: 160px;
 }
-.endtwo{
-  position: absolute;
-  font-size: 19px;
-  margin-top: 440px;
-  color:aliceblue;
-  margin-left: 30px;
-}
-.endimage{
-  
-  width:1520px;
-  height: 345px;
-  position: absolute;
-}
-.endrow{
-  margin-top: 130px;
-}
-
-.contactbackground{
-  position: absolute;
-  width:1530px;
-  height:715px;
-}
-.contactheader{
-  font-size: 100px;
-  font-family: 'Inter', sans-serif;
-  color: black;
-  
-}
-.contactsubtitle{
-  font-size: 50px;
-  color: black;
-  padding-top: 250px;
+.gardenfixone{
   font-family: muli, sans-serif;
   font-weight: 900;
+  font-style: normal; 
+  font-size: 53px;
+}
+.gardenfixtwo{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;  
+}
+.gardenfixtwodot{
+  color:orange;
+  font-size: 70px;
+}
+.ceotitle{
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px; 
+}
+.shopsubtext{
+  color:yellow;
+  text-align: center;
+  font-size: 23px;
+  padding-bottom: 80px;
+}
+.contactdiv{
+  background-color: #fff5ee;
+  height:720px;
+}
+.aboutusbigtitle{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;  
+  font-size: 90px;
+  padding-top: 100px;
+}
+.contacttext{
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 55px; 
+  color:#00693e;
+  padding-top: 70px;
+}
+.lagostext{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal; 
+  font-size: 30px;
+  padding-top: 40px;
+}
+.lagosaddress{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal; 
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.phonelogo{
+  font-size: 20px;
+  
+}
+.textinfo{
+  margin-top: 60px;
+  font-size: 15px;
+  color:black;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
-.contactrow{
-  padding-top: 120px;
-  padding-bottom: 45px;
-}
-.finalfix{
-  color: black;
-}
-.lagos{
-  padding-top: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbrand{
   padding-left: 21px;
 }
@@ -550,26 +362,8 @@ position: absolute;
   font-weight: 900;
   font-style: normal;
 }
-.layericons{
-  color: white;
-  font-size: 105px;
-  margin-top: 440px;
-  margin-left: 50px;
-  
-}
-.layertext{
-  color: white;
-}
 
-.largeicontow{
-  padding-left: 80px;
-}
 
-.finalbutton{
-  text-align: center;
-  position:relative;
-  margin-top: 19px;
-}
 
 
 
@@ -842,9 +636,7 @@ and (max-width:480px) {
     .groundrow{
       margin-top: 230px;
     }
-    .navbar{
-      background-color: white;
-    }
+   
     .aboutus{
       color: black;
     }

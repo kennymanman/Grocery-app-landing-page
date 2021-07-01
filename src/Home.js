@@ -79,7 +79,7 @@ return (
 </div>
 
 
-<h2 style={{textAlign:"center", color:"black", fontSize:70}}>Grocery shopping made easy</h2>
+<h2 className="madeeasytext">Grocery shopping made easy.</h2>
 
 
 
@@ -117,7 +117,9 @@ return (
 
 
 
-<div style={{backgroundColor:"#009e60" , height:300, marginTop:100}}>
+
+
+<div style={{backgroundColor:"#2e8b57" , height:300, marginTop:100}}>
 <Layout>
 
 <ReactBootStrap.Row className="bottomrow">
