@@ -358,12 +358,26 @@ and (max-width:480px) {
 
 
   .bigsection{
-    display: none;
+  display: unset;  
   }
   
-  .homepagediv{
-    object-fit: contain;
-  }
+ .biggardentext{
+   font-size: 90px;
+   padding-top: 150px;
+   color:tomato;
+ }
+ .gardenbigdot{
+   font-size: 95px;
+ }
+ .smallgardentext{
+   font-size:19px;
+   color: white;
+   padding-top: 5px;
+ }
+ .navbrand{
+   padding-left: 0px;
+ }
+
 }  
 
 
