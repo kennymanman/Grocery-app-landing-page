@@ -48,9 +48,10 @@ return (
 
 <MobileStoreButton
     
-   width={145}
-   height={54}
+    width={145}
+    height={54}
 
+   className="storeiconone"
    store="ios"
    url={iOSUrl}
    linkProps={{ title: 'iOS Store Button' }}
@@ -59,6 +60,7 @@ return (
 
 <MobileStoreButton 
    
+   className="storeicontwo"
     height={65}
     width={210}
     
