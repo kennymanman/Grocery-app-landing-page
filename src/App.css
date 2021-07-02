@@ -363,17 +363,20 @@ and (max-width:480px) {
   }
   
  .biggardentext{
-   font-size: 87px;
+   font-size: 45px;
    padding-top: 150px;
-   color:yellow;
+   color:orange;
+   
  }
  .gardenbigdot{
-   font-size: 95px;
+   font-size: 60px;
+   color:yellow;
  }
  .smallgardentext{
-   font-size:25px;
-   color: white;
+   font-size:34px;
+   color: orange;
    padding-top: 5px;
+   
  }
  .navbrand{
    padding-left: 0px;
@@ -420,8 +423,12 @@ and (max-width:480px) {
  }
  .homepagediv{
 
-  background-image: url("./Imaged/love.jpg");
-  background-size: contain;
+  background-image: url("./Imaged/mill.jpg");
+  background-size: cover;
+  height:800px;
+ }
+ .gardenname{
+   color:white;
  }
 }  
 
