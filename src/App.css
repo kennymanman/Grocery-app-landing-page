@@ -2,6 +2,7 @@
 
   background-image: url("./Imaged/poal.jpg");
   height:1880px;
+  background-size: cover;
   
 
 }
@@ -363,9 +364,10 @@ and (max-width:480px) {
   }
   
  .biggardentext{
-   font-size: 38px;
+   font-size: 60px;
    padding-top: 120px;
-   color:black;
+   color:yellow;
+   
    
  }
  .gardenbigdot{
@@ -373,7 +375,7 @@ and (max-width:480px) {
    color:orange;
  }
  .smallgardentext{
-   font-size:34px;
+   font-size:32px;
    color: white;
    padding-top: 4px;
    
@@ -422,13 +424,16 @@ and (max-width:480px) {
    font-size: 12px;
  }
  .homepagediv{
-
-  
-  
-  height:650px;
+background-color:#00693e;
+ background-image: none; 
+  background-size: 50vh;
+  height:950px;
  }
  .gardenname{
    color:white;
+ }
+ .downloadrow{
+   padding-top: 100px;
  }
 }  
 
