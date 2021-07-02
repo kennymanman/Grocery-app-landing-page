@@ -12,7 +12,7 @@ import {RiRecycleFill} from "react-icons/ri";
 import {Icon,InlineIcon} from "@iconify/react"
 import mastercardIcon from "@iconify-icons/logos/mastercard"
 import visaIcon from '@iconify-icons/logos/visa';
-
+import vill from "./Imaged/vill.jpg"
 
 
 
@@ -82,6 +82,15 @@ return (
 
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:2, marginTop:70}} />
+
+
+
+<img 
+alt="loading"
+src={vill}
+className="invisibleimage"
+/>
+
 
 <h2 className="madeeasytext">Grocery shopping made easy.</h2>
 
