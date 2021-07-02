@@ -2,6 +2,7 @@
 
   background-image: url("./Imaged/poal.jpg");
   height:1880px;
+  
 
 }
 
@@ -362,22 +363,66 @@ and (max-width:480px) {
   }
   
  .biggardentext{
-   font-size: 90px;
+   font-size: 87px;
    padding-top: 150px;
-   color:tomato;
+   color:yellow;
  }
  .gardenbigdot{
    font-size: 95px;
  }
  .smallgardentext{
-   font-size:19px;
+   font-size:25px;
    color: white;
    padding-top: 5px;
  }
  .navbrand{
    padding-left: 0px;
  }
+ .recycleicon{
+   color: white;
+   margin-left: 20px;
+ }
+ .madeeasytext{
+   font-size: 35px;
+ }
+ .largeicon{
+   font-size: 50px;
+ }
+ .largeicontext{
+   font-size: 20px;
+ }
+ .selltext{
+   font-size: 30px;
+ }
+ .sellminor{
+   font-size: 12px;
+ }
+ .bottomheader{
+   font-size: 12px;
+   
+ }
+ .socialicons{
+   font-size: 12px;
+   margin: 7px;
+ }
+ .paymenticons{
+   font-size: 23px;
+ }
+ .paymenticonstwo{
+   font-size: 15px;
+ }
+ .bottomtext{
+   font-size: 10px;
+   display: none;
+ }
+ .gardenbottom{
+   font-size: 12px;
+ }
+ .homepagediv{
 
+  background-image: url("./Imaged/love.jpg");
+  background-size: contain;
+ }
 }  
 
 

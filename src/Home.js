@@ -150,7 +150,9 @@ return (
 <p className="corporate">© 2021 Garden store. subsidiary of August.</p>
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col>
+
+
+<ReactBootStrap.Col >
 <h2 className="bottomheader">info</h2>
 
 <h5 className="bottomtext">Meet our founder</h5>
@@ -159,7 +161,7 @@ return (
 </ReactBootStrap.Col>
 
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col >
 <h3 className="gardenbottom">Garden. is dedicated to keeping the earth green.</h3>
 
 <div>
