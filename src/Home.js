@@ -167,7 +167,7 @@ className="invisibleimage"
 
 
 
-<ReactBootStrap.Col >
+<ReactBootStrap.Col className="inforow" >
 <h2 className="bottomheader">info</h2>
 
 <h5 className="bottomtext">Meet our founder</h5>

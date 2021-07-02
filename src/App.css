@@ -406,12 +406,12 @@ and (max-width:480px) {
    font-size: 12px;
  }
  .bottomheader{
-   font-size: 12px;
+   font-size: 15px;
    
  }
  .socialicons{
-   font-size: 12px;
-   margin: 7px;
+   font-size: 15px;
+   margin: 8px;
  }
  .paymenticons{
    font-size: 23px;
@@ -450,6 +450,12 @@ background-color:#00693e;
  }
  .madeeasytext{
    padding-top: 50px;
+ }
+ .inforow{
+   display: none;
+ }
+ .corporate{
+   font-size: 10px;
  }
 }  
 
