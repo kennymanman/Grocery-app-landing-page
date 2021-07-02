@@ -12,7 +12,11 @@ import {RiRecycleFill} from "react-icons/ri";
 import {Icon,InlineIcon} from "@iconify/react"
 import mastercardIcon from "@iconify-icons/logos/mastercard"
 import visaIcon from '@iconify-icons/logos/visa';
-import vill from "./Imaged/vill.jpg"
+import sill from "./Imaged/sill.jpg"
+import bave from "./Imaged/bave.jpg"
+import cop from "./Imaged/cop.jpg"
+
+
 
 
 
@@ -87,7 +91,7 @@ return (
 
 <img 
 alt="loading"
-src={vill}
+src={cop}
 className="invisibleimage"
 />
 

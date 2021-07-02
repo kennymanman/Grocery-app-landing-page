@@ -430,20 +430,21 @@ and (max-width:480px) {
 background-color:#00693e;
  background-image: none; 
   background-size: 50vh;
-  height:2100px;
+  height:2500px;
  }
  .gardenname{
    color:white;
    font-size: 20px;
  }
  .downloadrow{
-   padding-top: 100px;
+   padding-top: 190px;
  }
  .invisibleimage{
    display:unset;
    margin: 15px;
    width:345px;
-   height:300px;
+   height:350px;
+   background-size: contain;
    margin-top: 40px;
 
  }
