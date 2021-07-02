@@ -87,14 +87,14 @@ return (
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:2, marginTop:70}} />
 
-
+<div style={{textAlign:"center"}}>
 
 <img 
 alt="loading"
 src={cop}
 className="invisibleimage"
 />
-
+</div>
 
 <h2 className="madeeasytext">Grocery shopping made easy.</h2>
 
@@ -182,7 +182,7 @@ className="invisibleimage"
 <div>
 <MobileStoreButton
     
-   width={145}
+   width={120}
    height={54}
 
    store="ios"
@@ -193,8 +193,8 @@ className="invisibleimage"
 
 <MobileStoreButton 
    
-    height={65}
-    width={200}
+    height={60}
+    width={140}
     
     store="android"
     url={androidUrl}

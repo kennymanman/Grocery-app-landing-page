@@ -80,6 +80,9 @@
 }
 .bottomheader{
   color:yellow;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   
   
 }
@@ -109,11 +112,17 @@
 .bottomtext{
   color: yellow;
   font-size: 19px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   
 }
 .gardenbottom{
   font-size: 20px;
   color: yellow;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .abouttitle{
   font-size: 85px;
@@ -163,13 +172,7 @@
   font-weight: 700;
   font-style: normal;
 }
-.nextaboutdiv{
- 
-  height:650px; 
-  margin: 10px;
-  margin-top: 40px;
-  
-}
+
 .ceopic{
   width:400px;
   height:400px;
@@ -429,7 +432,6 @@ and (max-width:480px) {
  .homepagediv{
 background-color:#00693e;
  background-image: none; 
-  background-size: 50vh;
   height:2300px;
  }
  .gardenname{
@@ -456,6 +458,63 @@ background-color:#00693e;
  }
  .corporate{
    font-size: 10px;
+ }
+ .aboutpagediv{
+   background-image: none;
+   background-color:#00693e;
+   height: 2600px;
+ }
+ .abouttitle{
+   font-size: 40px;
+   padding-top: 150px;
+ }
+ .abouttitledot{
+   font-size: 35px;
+ }
+ .aboutsubtitle{
+   font-size: 35px;
+ }
+ .aboutmessage{
+   font-size: 17px;
+   padding-top: 30px;
+ }
+ .gardenfixone{
+   font-size: 30px;
+ }
+ .aboutfirstimage{
+   width:345px;
+   height:320px;
+   margin-top: 30px;
+ }
+ .shoptext{
+   font-size: 32px;
+ }
+ .shopsubtext{
+   font-size: 15px;
+ }
+ .founderhead{
+   font-size: 40px;
+ }
+ .ceopic{
+  width:345px;
+   height:320px;
+   margin: 2px; 
+ }
+ .founderspeech{
+   font-size: 17px;
+   padding-top: 50px;
+ }
+ .foundername{
+   font-size: 15px;
+   margin-bottom: 50px;
+ }
+ .ceotitle{
+   font-size:15px ;
+   margin-bottom: 50px;
+
+ }
+ .contactus{
+   margin-left: 0px;
  }
 }  
 

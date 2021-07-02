@@ -75,6 +75,7 @@ to connect and solve this problem.
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:1, marginTop:50}} /> 
 
+
 <div className="nextaboutdiv" >
 
 <Layout>
@@ -145,7 +146,7 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 <p className="corporate">© 2021 Garden store. subsidiary of August.</p>
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col className="inforow" >
 <h2 className="bottomheader">info</h2>
 
 <h5 className="bottomtext">Meet our founder</h5>
