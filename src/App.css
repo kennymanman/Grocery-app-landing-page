@@ -363,8 +363,8 @@ and (max-width:480px) {
   }
   
  .biggardentext{
-   font-size: 45px;
-   padding-top: 150px;
+   font-size: 38px;
+   padding-top: 120px;
    color:orange;
    
  }
@@ -375,7 +375,7 @@ and (max-width:480px) {
  .smallgardentext{
    font-size:34px;
    color: orange;
-   padding-top: 5px;
+   padding-top: 4px;
    
  }
  .navbrand{
