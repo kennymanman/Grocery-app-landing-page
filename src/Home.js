@@ -81,6 +81,8 @@ return (
 </div>
 
 
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2, marginTop:70}} />
+
 <h2 className="madeeasytext">Grocery shopping made easy.</h2>
 
 
