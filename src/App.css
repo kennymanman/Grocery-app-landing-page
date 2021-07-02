@@ -365,16 +365,16 @@ and (max-width:480px) {
  .biggardentext{
    font-size: 38px;
    padding-top: 120px;
-   color:orange;
+   color:black;
    
  }
  .gardenbigdot{
    font-size: 60px;
-   color:yellow;
+   color:orange;
  }
  .smallgardentext{
    font-size:34px;
-   color: orange;
+   color: white;
    padding-top: 4px;
    
  }
@@ -423,9 +423,9 @@ and (max-width:480px) {
  }
  .homepagediv{
 
-  background-image: url("./Imaged/mill.jpg");
-  background-size: cover;
-  height:800px;
+  background-image: url("./Imaged/oill.jpg");
+  background-size: contain;
+  height:650px;
  }
  .gardenname{
    color:white;
