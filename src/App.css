@@ -520,6 +520,7 @@ background-color:#00693e;
  .contactdiv{
    
    background-color:#00693e;
+   height:1200px;
  }
  .aboutusbigtitle{
   font-size: 40px;
@@ -527,7 +528,7 @@ background-color:#00693e;
   color: white;
  }
  .contacttext{
-   font-size: 30px;
+   font-size: 40px;
  }
 }  
 

@@ -26,7 +26,7 @@ export default function Contact() {
 <Layout>
 <h2 className="aboutusbigtitle">Contact us</h2>
 
-<hr style={{ borderColor:"black", backgroundColor:"black", height:3, marginTop:15}} /> 
+<hr style={{ borderColor:"white", backgroundColor:"white", height:3, marginTop:15}} /> 
 
 <ReactBootStrap.Row>
 
@@ -89,7 +89,7 @@ we would love to hear from you.
 <p className="corporate">© 2021 Garden store. subsidiary of August.</p>
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col className="inforow">
 <h2 className="bottomheader">info</h2>
 
 <h5 className="bottomtext">Meet our founder</h5>
