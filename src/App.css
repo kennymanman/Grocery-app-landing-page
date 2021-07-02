@@ -483,8 +483,9 @@ background-color:#00693e;
  }
  .aboutfirstimage{
    width:345px;
-   height:320px;
+   height:370px;
    margin-top: 30px;
+   text-align: center;
  }
  .shoptext{
    font-size: 32px;
@@ -515,6 +516,18 @@ background-color:#00693e;
  }
  .contactus{
    margin-left: 0px;
+ }
+ .contactdiv{
+   
+   background-color:#00693e;
+ }
+ .aboutusbigtitle{
+  font-size: 40px;
+  padding-top: 150px;
+  color: white;
+ }
+ .contacttext{
+   font-size: 30px;
  }
 }  
 
