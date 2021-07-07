@@ -25,8 +25,8 @@ return (
 
 <ReactBootStrap.Col>
 <h5>Follow us</h5>
-<h2>Instagram</h2>
-<h2>Twitter</h2>
+<h2 className="contactlink">Instagram</h2>
+<h2 className="contactlink">Twitter</h2>
 
 </ReactBootStrap.Col>
 
@@ -38,7 +38,7 @@ return (
 
  < GrPhone className="phonelogo" /> <h7 className="textinfo">Phone number: +234 000000231</h7>   
  
- <p style={{paddingTop:30}}>© 2021 Garden store.</p>
+ <p className="contactcorporate" style={{paddingTop:30}}>© 2021 Garden store.</p>
 </ReactBootStrap.Col>
 
 
