@@ -543,8 +543,11 @@ padding-bottom: 40px;
   height: 1000px;
 }
 .aboutfirstimage{
-  width:345px;
-  height:350px
+  width:320px;
+  height:350px;
+  margin:10px;
+  text-align: center;
+  
 }
 .commentone{
   font-size: 20px;
