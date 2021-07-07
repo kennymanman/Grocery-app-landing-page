@@ -466,7 +466,7 @@ and (max-width:480px) {
 }
 .downloadtext{
 font-size: 30px;
-padding-bottom: 20px;
+padding-bottom: 40px;
 }
 .easiertext{
   font-size: 50px;
@@ -505,6 +505,22 @@ padding-bottom: 20px;
 .corporate{
   font-size: 10px;
 }
+.jumbotronone{
+  height: 310px;
+  width:320px;
+  margin: 12px;
+}
+.jumbotrontwo{
+  height: 310px;
+  width:320px;
+  margin: 12px; 
+}
+.jumbotronthree{
+  height: 310px;
+  width:320px;
+  margin: 12px;  
+}
+
 }  
 
 
