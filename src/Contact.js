@@ -24,7 +24,7 @@ return (
 <ReactBootStrap.Row>
 
 <ReactBootStrap.Col>
-<h5>Follow us</h5>
+<h5 style={{paddingTop:20}}>Follow us</h5>
 <h2 className="contactlink">Instagram</h2>
 <h2 className="contactlink">Twitter</h2>
 
@@ -44,7 +44,7 @@ return (
 
 <ReactBootStrap.Col>
 
-<p>For general questions,<br/>email us at <a className="textinfo" href='mailto:gardenstoreapp@gmail.com'>info@gardenstore.help</a></p>
+<p className="lastcontact">For general questions,<br/>email us at <a className="textinfo" href='mailto:gardenstoreapp@gmail.com'>info@gardenstore.help</a></p>
 
 <p><h8 className="textinfo">How does a cat stop a video from playing?</h8><br/>
 The paws button.</p>
