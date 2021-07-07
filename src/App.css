@@ -559,8 +559,10 @@ padding-bottom: 40px;
   font-size:40px;
 }
 .ceopic{
+  width:320px;
   height:350px;
-  width:345px;
+  margin:10px;
+  text-align: center;
 }
 .founderspeech{
   font-size: 15px;
