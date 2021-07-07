@@ -82,7 +82,7 @@ return (
 
 
 
-<h2 className="easiertext">We Make Life<br/>Easier For<br/>Everyone.</h2>
+<h2 className="easiertext">We Make<br/> Life Easier For<br/>Everyone.</h2>
 
 
 <ReactBootStrap.Row>

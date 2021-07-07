@@ -447,7 +447,7 @@ and (max-width:480px) {
 }
 .topdiv{
   background-size: cover;
-  height:800px;
+  height:820px;
 }
 .biggardentext{
   font-size: 75px;
@@ -466,9 +466,10 @@ and (max-width:480px) {
 }
 .downloadtext{
 font-size: 30px;
+padding-bottom: 20px;
 }
 .easiertext{
-  font-size: 40px;
+  font-size: 50px;
   padding-bottom: 70px;
 }
 .tastetext{
