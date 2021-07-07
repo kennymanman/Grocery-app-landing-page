@@ -16,7 +16,7 @@ return (
 <div>
 <Layout>
 
-<ReactBootStrap.Navbar variant="dark" className="navbar" expand="lg" fixed="top"
+<ReactBootStrap.Navbar variant="light" className="navbar" expand="lg" fixed="top"
    >
 
 <ReactBootStrap.Navbar.Brand className="navbrand">
