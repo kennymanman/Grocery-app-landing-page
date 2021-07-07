@@ -520,7 +520,9 @@ padding-bottom: 40px;
   width:330px;
   margin: 12px;  
 }
-
+.listedtitles{
+  font-size: 15px;
+}
 }  
 
 
