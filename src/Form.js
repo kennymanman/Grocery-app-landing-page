@@ -79,9 +79,11 @@ export default function Form() {
   
     <label>What Feature would You Love Our App To Have: <textarea name="message"></textarea></label>
   
-  
-    <button type="submit">Send</button>
-  
+  <p>gg</p>
+
+  <div style={{textAlign:"center"}}>
+    <button  type="submit">Submit</button>
+ </div> 
 </form> 
 
 </div>  
