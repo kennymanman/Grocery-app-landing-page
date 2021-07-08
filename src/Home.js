@@ -10,7 +10,7 @@ import mastercardIcon from "@iconify-icons/logos/mastercard"
 import visaIcon from '@iconify-icons/logos/visa';
 import paypalIcon from '@iconify-icons/logos/paypal';
 import { FaRecycle } from "react-icons/fa";
-
+import {LinkContainer} from 'react-router-bootstrap'
 
 
 
@@ -54,6 +54,7 @@ return (
 
 <div style={{textAlign:"center"}}>
 
+<LinkContainer to="/Form">
 <MobileStoreButton
     
     width={145}
@@ -64,7 +65,7 @@ return (
    url={iOSUrl}
    linkProps={{ title: 'iOS Store Button' }}
 />
-
+</LinkContainer>
 
 
 <MobileStoreButton 

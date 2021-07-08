@@ -50,6 +50,7 @@ to connect and solve this problem.
 <ReactBootStrap.Col>
         
 <img
+
 src={paperone}  
 alt="loading" 
 className="aboutfirstimage"
