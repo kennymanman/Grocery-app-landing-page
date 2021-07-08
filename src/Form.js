@@ -19,7 +19,7 @@ export default function Form() {
 
 
 
-{/*
+
 <div className="inputdiv">
 <ReactBootStrap.Form name="notify" method="POST" data-netlify="true" >
 <input type="hidden" name="form-name" value="notify"  />
@@ -28,7 +28,7 @@ export default function Form() {
 
 <ReactBootStrap.Form.Group  controlId="formName">
 <ReactBootStrap.Form.Label>Name</ReactBootStrap.Form.Label>
-<ReactBootStrap.Form.Control placeholder="First name" />
+<ReactBootStrap.Form.Control input type="text"  name="name" placeholder="First name" />
 </ReactBootStrap.Form.Group>
 
 
@@ -37,7 +37,7 @@ export default function Form() {
 
 <ReactBootStrap.Form.Group  controlId="formBasicEmail">
 <ReactBootStrap.Form.Label>Email address</ReactBootStrap.Form.Label>
-<ReactBootStrap.Form.Control  type="email" placeholder="Enter email" />
+<ReactBootStrap.Form.Control input type="text" name="email"   placeholder="Enter email" />
 <ReactBootStrap.Form.Text className="text-muted">
       We'll never share your email with anyone else.
 </ReactBootStrap.Form.Text>
@@ -48,7 +48,7 @@ export default function Form() {
 
 <ReactBootStrap.Form.Group controlId="exampleForm.ControlTextarea1">
 <ReactBootStrap.Form.Label>What Feature Would You Like To See On Our App?</ReactBootStrap.Form.Label>
-<ReactBootStrap.Form.Control as="textarea" rows={3} />
+<ReactBootStrap.Form.Control name="message" as="textarea" rows={3} />
 
 
 
@@ -62,11 +62,11 @@ export default function Form() {
 
 
 </div>
-*/}
 
 
 
 
+{/*
 
 <div className="inputdiv">
 <form name="notify" method="POST" data-netlify="true">
@@ -86,7 +86,7 @@ export default function Form() {
  </div> 
 </form> 
 
-</div>  
+</div>   */}
 
 
 </ReactBootStrap.Col>
