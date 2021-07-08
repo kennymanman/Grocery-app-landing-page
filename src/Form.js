@@ -19,7 +19,7 @@ export default function Form() {
 
 
 
-
+{/*
 <div className="inputdiv">
 <ReactBootStrap.Form name="notify" method="POST" data-netlify="true" >
 <input type="hidden" name="form-name" value="notify"  />
@@ -62,31 +62,29 @@ export default function Form() {
 
 
 </div>
+*/}
 
 
 
 
-{/*
 
 <div className="inputdiv">
 <form name="notify" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="notify" />
-  <p>
-    <label>First Name<input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
+  
+<input type="text"  placeholder="Enter your name" name="name" /> 
+  
+<input type="text"  placeholder="Enter your email" name="email" /> 
 
-  <p>
+  
     <label>What Feature would You Love Our App To Have: <textarea name="message"></textarea></label>
-  </p>
-  <p>
+  
+  
     <button type="submit">Send</button>
-  </p>
+  
 </form> 
 
-</div>  */}
+</div>  
 
 
 </ReactBootStrap.Col>
