@@ -3,7 +3,7 @@
 
 .topdiv{
   background-image: url("./Imaged/cove.jpg");
-  height:760px;  
+  height:780px;  
   background-size: contain;
 }
 .biggardentext{
@@ -51,7 +51,7 @@
 .followingdiv{
   background-color:white;
   height:400px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .downloadtext{
@@ -587,6 +587,7 @@ padding-bottom: 40px;
 }
 .aboutmessage{
   font-size: 15px;
+  text-align: center;
 }
 .topaboutpagediv{
   height: 1000px;
@@ -616,6 +617,7 @@ padding-bottom: 40px;
 .founderspeech{
   font-size: 15px;
   padding-top: 20px;
+  text-align: center;
 }
 .foundername{
   font-size: 20px;
