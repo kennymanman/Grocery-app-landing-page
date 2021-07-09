@@ -2,23 +2,25 @@ import React from 'react'
 import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
 
+
+
 export default function Form() {
-    return (
-        <div className="formdiv">
+return (
+
+
+<div className="formdiv">
 
 <Layout>
 
 <ReactBootStrap.Row>
-    <ReactBootStrap.Col>
-    <h2 className="formtitle" >Be the first to<br/> know about our app<br/> and full accessibility<br/> launch.</h2>
+<ReactBootStrap.Col>
+<h2 className="formtitle" >
+    Be the first to<br/> know about our app<br/> and full accessibility<br/> launch.</h2>
 </ReactBootStrap.Col>
 
 
 
 <ReactBootStrap.Col className="formtop">
-
-
-
 
 <div className="inputdiv">
 <ReactBootStrap.Form name="notify" method="POST" data-netlify="true" >
@@ -93,41 +95,6 @@ export default function Form() {
 
 
 </ReactBootStrap.Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/*
-<form name="notify" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="notify" />
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-
-  <p>
-    <label>What Feature would You Love Our App To Have: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form> */}
 
 
 

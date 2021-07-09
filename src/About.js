@@ -100,10 +100,14 @@ took a galley of type and scrambled it to make a type specimen book.
 </ReactBootStrap.Row>
 </Layout>
 
-<hr style={{borderColor:"black",backgroundColor:"black", height:1, marginTop:120}} />
 
 
+
+
+
+<div className="grounddiv">
 <Layout>
+
 
 <ReactBootStrap.Row className="bottomrow">
 
@@ -128,7 +132,7 @@ took a galley of type and scrambled it to make a type specimen book.
 
 </Layout>
 
-
+</div>
 </div>
     
             

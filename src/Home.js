@@ -11,7 +11,8 @@ import visaIcon from '@iconify-icons/logos/visa';
 import paypalIcon from '@iconify-icons/logos/paypal';
 import { FaRecycle } from "react-icons/fa";
 import {LinkContainer} from 'react-router-bootstrap'
-
+import app from "./Imaged/app.png"
+import playstore from "./Imaged/playstore.png"
 
 
 
@@ -50,11 +51,17 @@ return (
 
 <Layout>
 
+
+
 <h2 className="downloadtext">Download the app<br/> and get started.</h2>
 
-<div style={{textAlign:"center"}}>
 
-<LinkContainer to="/Form">
+
+
+
+
+
+ {/*
 <MobileStoreButton
     
     width={145}
@@ -64,10 +71,40 @@ return (
    store="ios"
    url={iOSUrl}
    linkProps={{ title: 'iOS Store Button' }}
+/> */}
+<div style={{textAlign:"center"}}>
+
+<LinkContainer to="/Form">
+
+<img
+alt="loading button"
+src={app}
+className="applebutton"
 />
+
+
+
 </LinkContainer>
 
 
+<LinkContainer to="/Form">
+
+<img
+alt="loading button"
+src={playstore}
+className="applebutton"
+/>
+
+
+
+</LinkContainer>
+</div>
+
+
+
+
+
+{/*
 <MobileStoreButton 
    
    
@@ -77,16 +114,20 @@ return (
     store="android"
     url={androidUrl}
     linkProps={{ title: 'android Store Button' }}
-/>
+/> */}
 
-</div>
+
+
+
+
+
 
 
 
 <h2 className="easiertext">We Make<br/> Life Easier For<br/>Everyone.</h2>
 
 
-<ReactBootStrap.Row>
+<ReactBootStrap.Row className="featurerow">
 
 
 <ReactBootStrap.Col>
@@ -157,7 +198,12 @@ Start selling
 </Layout>
 
 
-<hr style={{borderColor:"black",backgroundColor:"black", height:1, marginTop:120}} />
+{/*<hr style={{borderColor:"black",backgroundColor:"black", height:1, marginTop:120}} /> */}
+
+
+
+
+<div className="grounddiv">
 <Layout>
 <ReactBootStrap.Row className="bottomrow">
 
@@ -182,7 +228,7 @@ Start selling
 </ReactBootStrap.Row>
 
 </Layout>
-
+</div>
 
 </div>
 
