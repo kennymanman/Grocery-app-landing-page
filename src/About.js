@@ -24,14 +24,20 @@ return (
 
 <Layout>
 
-<h2 className="abouttitle">About Garden<h8 className="abouttitledot">.</h8></h2>
+<h2 className="abouttitle">
+About Garden<h8 className="abouttitledot">.</h8>
+</h2>
         
         
         
 <ReactBootStrap.Row>
+
         
 <ReactBootStrap.Col  sm={7}>
-<h2 className="aboutsubtitle">why we got <h8 className="gardenfixone">Garden</h8> started.</h2>
+<h2 className="aboutsubtitle">
+why we got <h8 className="gardenfixone">Garden</h8> started.
+</h2>
+
         
 <p className="aboutmessage">
 Our startup was founded in 2020 during the Covid pandemic.
@@ -58,23 +64,22 @@ fluid
 />
 
 </ReactBootStrap.Col>
-
 </ReactBootStrap.Row> 
+
 
 
 <h2 className="commentone">"OUR DAILY GROCERY PLUG"</h2>
 <h2 className="commenttwo">"LOVE THE WAY GARDEN HELPS LOCAL GROCERY SELLERS"</h2>
-
 </Layout>
 
 
-<div className="bottomaboutpagediv">
 
+<div className="bottomaboutpagediv">
 <Layout>
 <h3 className="founderhead">Meet our founder</h3>
 
-<ReactBootStrap.Row>
 
+<ReactBootStrap.Row>
 <ReactBootStrap.Col>
 
 <img
@@ -108,9 +113,7 @@ took a galley of type and scrambled it to make a type specimen book.
 <div className="grounddiv">
 <Layout>
 
-
 <ReactBootStrap.Row className="bottomrow">
-
 <ReactBootStrap.Col>
 
 <h3 className="bottomtext">Instagram</h3>
@@ -134,8 +137,7 @@ took a galley of type and scrambled it to make a type specimen book.
 
 </div>
 </div>
-    
-            
-        </div>
-    )
+</div>
+
+)
 }

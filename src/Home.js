@@ -1,7 +1,6 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap"
 import Layout from "./Layout"
-import MobileStoreButton from 'react-mobile-store-button'
 import {GiOrangeSlice} from "react-icons/gi";
 import {FiTruck} from "react-icons/fi";
 import {FiShoppingBag} from "react-icons/fi";
@@ -23,45 +22,28 @@ import playstore from "./Imaged/playstore.png"
 export default function Home() {
 
 
-const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+//const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
 
-const androidUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+//const androidUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
 
 
 return (
 
-
-
 <div className="topdiv">
-
 
 
 <Layout>
 <h2 className="biggardentext">Garden<h8 className="gardenbigdot">.</h8></h2>
-
 <h2 className="smallgardentext">A new way to reach<br/> quality groceries around<br/>you.</h2>
-
 <h3 className="nextgardentext">Grocery shopping made easier.</h3>
-
 </Layout>
-
-
 
 <div className="followingdiv">
 
+
 <Layout>
-
-
-
 <h2 className="downloadtext">Download the app<br/> and get started.</h2>
-
-
-
-
-
-
-
- {/*
+{/*
 <MobileStoreButton
     
     width={145}
@@ -72,32 +54,30 @@ return (
    url={iOSUrl}
    linkProps={{ title: 'iOS Store Button' }}
 /> */}
+
+
+
 <div style={{textAlign:"center"}}>
 
 <LinkContainer to="/Form">
-
 <img
 alt="loading button"
 src={app}
 className="applebutton"
 />
-
-
-
 </LinkContainer>
 
 
-<LinkContainer to="/Form">
 
+<LinkContainer to="/Form">
 <img
 alt="loading button"
 src={playstore}
 className="applebutton"
 />
-
-
-
 </LinkContainer>
+
+
 </div>
 
 
@@ -118,17 +98,11 @@ className="applebutton"
 
 
 
-
-
-
-
-
-
 <h2 className="easiertext">We Make<br/> Life Easier For<br/>Everyone.</h2>
 
 
-<ReactBootStrap.Row className="featurerow">
 
+<ReactBootStrap.Row className="featurerow">
 
 <ReactBootStrap.Col>
 <ReactBootStrap.Jumbotron className="jumbotronone">
@@ -153,9 +127,13 @@ className="applebutton"
 
 
 </ReactBootStrap.Row>
-<h3 className="tastetext">We Connect You To Local Grocery Sellers.</h3>
+
+<h3 className="tastetext">
+We Connect You To Local Grocery Sellers.
+</h3>
 
 </Layout>
+
 
 
 <div className="lasthomediv">
@@ -198,8 +176,6 @@ Start selling
 </Layout>
 
 
-{/*<hr style={{borderColor:"black",backgroundColor:"black", height:1, marginTop:120}} /> */}
-
 
 
 
@@ -228,12 +204,11 @@ Start selling
 </ReactBootStrap.Row>
 
 </Layout>
-</div>
+
 
 </div>
-
 </div>
-
+</div>
 </div>
 
 
