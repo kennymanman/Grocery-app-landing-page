@@ -94,9 +94,9 @@ fluid
 
 <ReactBootStrap.Col>
 <p className="founderspeech">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-took a galley of type and scrambled it to make a type specimen book.
+Welcome to the Garden grocery store official page, we help create a platform for grocery
+sellers to reach customers nearby while providing affordable prices and discounts for our customers.
+Download the app today and start enjoying a healthy and cost-friendly lifestyle.
  </p>
 
 <h4 className="foundername">Okafor Ekene .
