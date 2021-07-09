@@ -29,7 +29,7 @@ return (
 <Layout>
 
 <ReactBootStrap.Form.Group  controlId="formName">
-<ReactBootStrap.Form.Label>Name</ReactBootStrap.Form.Label>
+<ReactBootStrap.Form.Label style={{marginTop:50}}>Name</ReactBootStrap.Form.Label>
 <ReactBootStrap.Form.Control input type="text"  name="name" placeholder="First name" />
 </ReactBootStrap.Form.Group>
 
