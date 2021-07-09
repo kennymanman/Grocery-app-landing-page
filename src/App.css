@@ -654,6 +654,15 @@ padding-bottom: 40px;
 .grounddiv{
   height:350px;
 }
+.formtitle{
+  font-size: 40px;
+}
+.formtop{
+  padding-top: 40px;
+}
+.formdiv{
+  height:600px;
+}
 }  
 
 
