@@ -1,3 +1,4 @@
+
 # Grocery app landing website
 React  website built as a landing website for an ecommerce app. Download links are provided to allow users download the app on both ios and android devices.  
  Live site: www.gardenstoreapp.com
@@ -10,7 +11,7 @@ React  website built as a landing website for an ecommerce app. Download links a
 
 ![zash](https://user-images.githubusercontent.com/61712644/121789737-60226600-cb63-11eb-9384-6a2c84eb9efb.PNG)
 
-
+![latesttwo](https://user-images.githubusercontent.com/61712644/125143076-63e2d300-e0a4-11eb-9c54-8b6b07aaacfa.JPG)
   
 ## Run Locally
 
