@@ -56,7 +56,7 @@ to connect and solve this problem.
 <ReactBootStrap.Col>
         
 <img
-
+style={{textAlign:"center"}}
 src={paperone}  
 alt="loading" 
 className="aboutfirstimage"
@@ -83,6 +83,7 @@ fluid
 <ReactBootStrap.Col>
 
 <img
+style={{textAlign:"center"}}
 alt="loading"
 src={pase}
 className="ceopic"
