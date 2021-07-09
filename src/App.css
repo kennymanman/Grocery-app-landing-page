@@ -601,9 +601,11 @@ padding-bottom: 40px;
 }
 .commentone{
   font-size: 20px;
+  text-align: center;
 }
 .commenttwo{
-  font-size: 20px; 
+  font-size: 20px;
+  text-align: center; 
 }
 .founderhead{
   font-size:35px;
@@ -657,10 +659,10 @@ padding-bottom: 40px;
 }
 .grounddiv{
   height:350px;
-  margin-top: 130px;
+  margin-top: 150px;
 }
 .formtitle{
-  font-size: 40px;
+  font-size: 45px;
 }
 .formtop{
   padding-top: 40px;
