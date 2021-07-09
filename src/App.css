@@ -340,7 +340,11 @@ color: black;
 
 /*Contact Page */
 
-
+.contactlink{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 .contactdiv{
   background-color: #ffa368;
   height:720px;
@@ -601,7 +605,7 @@ padding-bottom: 40px;
   font-size: 20px; 
 }
 .founderhead{
-  font-size:40px;
+  font-size:35px;
 }
 .ceopic{
   width:320px;
@@ -634,9 +638,7 @@ padding-bottom: 40px;
 }
 .contactlink{
   font-size: 24px;
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  
 }
 .contactcorporate{
   font-size: 10px;
@@ -653,7 +655,7 @@ padding-bottom: 40px;
 }
 .grounddiv{
   height:350px;
-  margin-top: 110px;
+  margin-top: 120px;
 }
 .formtitle{
   font-size: 40px;
