@@ -168,7 +168,7 @@ We Connect You To Local Grocery Sellers.
 
 
 <div style={{textAlign:"center"}}>
-<ReactBootStrap.Button href="http://www.gardenstorevendor.com" target= "blank" size={"lg"} variant="success">
+<ReactBootStrap.Button href="http://www.gardenstorevendor.com" target= "blank" size={"md"} variant="success">
 Start selling
 </ReactBootStrap.Button>
 </div>
