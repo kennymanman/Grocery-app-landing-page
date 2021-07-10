@@ -100,33 +100,37 @@ className="applebutton"
 
 <h2 className="easiertext">We Make<br/> Life Easier For<br/>Everyone.</h2>
 
-
+<div className="hackone"> 
 
 <ReactBootStrap.Row className="featurerow">
 
 <ReactBootStrap.Col>
-<ReactBootStrap.Jumbotron className="jumbotronone">
+<ReactBootStrap.Jumbotron fluid className="jumbotronone">
 <h3 className="listedtitles">Quality products at the push of a button.</h3>
 </ReactBootStrap.Jumbotron>
 </ReactBootStrap.Col>
 
-
 <ReactBootStrap.Col>
+<div className="hackone"> 
 <ReactBootStrap.Jumbotron className="jumbotrontwo">
 <h3 className="listedtitles">Order groceries for your next meal.</h3>
 </ReactBootStrap.Jumbotron>
+</div>
 </ReactBootStrap.Col>
 
 
 <ReactBootStrap.Col>
+<div className="hackone"> 
 <ReactBootStrap.Jumbotron className="jumbotronthree">
 <h3 className="listedtitles">We bring the market to your doorstep. </h3>
 </ReactBootStrap.Jumbotron>
+</div>
 </ReactBootStrap.Col>
 
 
 
 </ReactBootStrap.Row>
+</div>
 
 <h3 className="tastetext">
 We Connect You To Local Grocery Sellers.
