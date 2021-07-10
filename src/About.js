@@ -54,7 +54,7 @@ to connect and solve this problem.
 
                
 <ReactBootStrap.Col>
-        
+ <div className="hackone">       
 <img
 style={{textAlign:"center"}}
 src={paperone}  
@@ -62,7 +62,7 @@ alt="loading"
 className="aboutfirstimage"
 fluid
 />
-
+</div>
 </ReactBootStrap.Col>
 </ReactBootStrap.Row> 
 
@@ -81,7 +81,7 @@ fluid
 
 <ReactBootStrap.Row>
 <ReactBootStrap.Col>
-
+<div className="hackone">  
 <img
 style={{textAlign:"center"}}
 alt="loading"
@@ -89,7 +89,7 @@ src={pase}
 className="ceopic"
 fluid
 />
-
+</div>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>

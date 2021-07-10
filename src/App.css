@@ -595,7 +595,7 @@ padding-bottom: 40px;
 .aboutfirstimage{
   width:350px;
   height:350px;
-  padding:55px;
+  padding:20px;
   
   text-align: center;
   
@@ -614,7 +614,7 @@ padding-bottom: 40px;
 .ceopic{
   width:320px;
   height:350px;
-  padding:55px;
+  padding:20px;
   text-align: center;
 }
 .founderspeech{
@@ -672,6 +672,9 @@ padding-bottom: 40px;
 }
 .formdiv{
   height:600px;
+}
+.hackone{
+  text-align: center;
 }
 }  
 
