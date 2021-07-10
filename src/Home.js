@@ -100,15 +100,20 @@ className="applebutton"
 
 <h2 className="easiertext">We Make<br/> Life Easier For<br/>Everyone.</h2>
 
-<div className="hackone"> 
+
 
 <ReactBootStrap.Row className="featurerow">
 
+<div className="hackone"> 
 <ReactBootStrap.Col>
+<div className="hackone"> 
 <ReactBootStrap.Jumbotron fluid className="jumbotronone">
 <h3 className="listedtitles">Quality products at the push of a button.</h3>
 </ReactBootStrap.Jumbotron>
+</div>
 </ReactBootStrap.Col>
+</div>
+
 
 <ReactBootStrap.Col>
 <div className="hackone"> 
@@ -130,7 +135,7 @@ className="applebutton"
 
 
 </ReactBootStrap.Row>
-</div>
+
 
 <h3 className="tastetext">
 We Connect You To Local Grocery Sellers.
