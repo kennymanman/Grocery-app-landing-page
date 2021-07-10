@@ -587,7 +587,7 @@ padding-bottom: 40px;
 }
 .aboutmessage{
   font-size: 15px;
-  text-align: center;
+  
 }
 .topaboutpagediv{
   height: 1000px;
@@ -622,10 +622,12 @@ padding-bottom: 40px;
   text-align: center;
 }
 .foundername{
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 .ceotitle{
   font-size: 18px;
+  text-align: center;
 }
 .bottomaboutpagediv{
   height: 1270px;
