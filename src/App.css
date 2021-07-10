@@ -75,8 +75,8 @@
   font-family: muli, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 75px;
-  padding-top: 250px;
+  font-size: 70px;
+  padding-top: 240px;
 }
 .featurerow{
   margin-top: 90px;
@@ -89,7 +89,7 @@
 }
 
 .jumbotrontwo{
-  background-image: url("./Imaged/dano.jpg");
+  background-image: url("./Imaged/rgit.jpg");
   height:450px; 
   width:350px;
   background-size: cover;
@@ -104,18 +104,19 @@
 
 .listedtitles{
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
+  margin: 10px;
   color:black;
-  font-family: liberation-sans, sans-serif;
-  font-weight: 700;
+  font-family: alegreya-sans, sans-serif;
+  font-weight: 800;
   font-style: normal;
   
 }
 
 .tastetext{
   text-align: center;
-  padding-top: 70px;
-  font-size:55px;
+  padding-top: 90px;
+  font-size:40px;
   font-family: arvo, serif;
   font-weight: 700;
   font-style: normal;
@@ -554,24 +555,31 @@ padding-bottom: 40px;
   font-size: 10px;
 }
 .jumbotronone{
-  height: 310px;
-  width:350px;
-  margin: 15px;
-  text-align: center;
+  height: 330px;
+  width:340px;
+justify-content: center;
+  
+  
+  
 }
+
 .jumbotrontwo{
-  height: 310px;
-  width:330px;
-  margin: 12px; 
+  height: 330px;
+  width:340px;
+  
+  
+  
 }
 .jumbotronthree{
-  height: 310px;
-  width:330px;
-  margin: 12px;  
+  height: 330px;
+  width:340px;
+  
+   
 }
 .listedtitles{
   font-size: 18px;
   padding-top: 30px;
+  text-align: center;
 }
 .abouttitle{
   font-size: 40px;
@@ -676,6 +684,11 @@ padding-bottom: 40px;
 }
 .hackone{
   text-align: center;
+  
+}
+.hacktwo{
+  text-align: center;
+  
 }
 }  
 

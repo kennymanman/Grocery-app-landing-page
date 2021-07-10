@@ -104,29 +104,31 @@ className="applebutton"
 
 <ReactBootStrap.Row className="featurerow">
 
-<div className="hackone"> 
+<div className="hacktwo"> 
 <ReactBootStrap.Col>
-<div className="hackone"> 
+    
 <ReactBootStrap.Jumbotron fluid className="jumbotronone">
 <h3 className="listedtitles">Quality products at the push of a button.</h3>
 </ReactBootStrap.Jumbotron>
-</div>
+
 </ReactBootStrap.Col>
 </div>
 
 
+<div className="hacktwo"> 
 <ReactBootStrap.Col>
-<div className="hackone"> 
-<ReactBootStrap.Jumbotron className="jumbotrontwo">
+
+<ReactBootStrap.Jumbotron fluid className="jumbotrontwo">
 <h3 className="listedtitles">Order groceries for your next meal.</h3>
 </ReactBootStrap.Jumbotron>
-</div>
+
 </ReactBootStrap.Col>
+</div>
 
 
 <ReactBootStrap.Col>
-<div className="hackone"> 
-<ReactBootStrap.Jumbotron className="jumbotronthree">
+<div className="hacktwo"> 
+<ReactBootStrap.Jumbotron fluid className="jumbotronthree">
 <h3 className="listedtitles">We bring the market to your doorstep. </h3>
 </ReactBootStrap.Jumbotron>
 </div>
@@ -176,7 +178,7 @@ We Connect You To Local Grocery Sellers.
 <p className="sellminor">Experience the best from reaching customers to making sales  selling with garden.</p>
 
 
-<div style={{textAlign:"center"}}>
+<div  style={{textAlign:"center", marginBottom:130}}>
 <ReactBootStrap.Button href="http://www.gardenstorevendor.com" target= "blank" size={"md"} variant="success">
 Start selling
 </ReactBootStrap.Button>
