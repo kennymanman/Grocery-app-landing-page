@@ -33,7 +33,7 @@ About Garden<h8 className="abouttitledot">.</h8>
 <ReactBootStrap.Row>
 
         
-<ReactBootStrap.Col  sm={7}>
+<ReactBootStrap.Col  >
 <h2 className="aboutsubtitle">
 why we got <h8 className="gardenfixone">Garden</h8> started.
 </h2>

@@ -691,9 +691,71 @@ padding-bottom: 40px;
   and (min-device-width: 480px) 
   and (max-device-width: 768px) 
   {
-
-   
-    
+.navbrand{
+  margin-left: 0px;
+}
+.contactus{
+  margin-left: 0px;
+}
+.gardenname{
+  font-size: 20px;
+}
+.biggardentext{
+  font-size: 90px;
+  padding-top: 190px;
+}
+.gardenbigdot{
+  font-size: 90px;
+}
+ .nextgardentext{
+   font-size: 35px;
+ }
+ .downloadtext{
+   font-size: 30px;
+ } 
+ .easiertext{
+   font-size: 50px;
+ } 
+ .tastetext{
+   font-size: 40px;
+ }
+ .largeicon{
+   font-size: 55px;
+ }  
+ .largeicontext{
+   font-size: 19px;
+ } 
+ .abouttitle{
+   font-size: 55px;
+   padding-top: 140px;
+ }
+ .abouttitledot{
+   font-size: 40px;
+ }
+ .aboutsubtitle{
+   font-size: 38px;
+ }
+ .gardenfixone{
+   font-size:35px;
+ }
+ .aboutmessage{
+   font-size: 17px;
+ }
+ .aboutfirstimage{
+   height: 300px;
+ }
+ .topaboutpagediv{
+   height:900px;
+ }
+ .founderhead{
+   font-size: 40px;
+ }
+ .contactdiv{
+   height:900px;
+ }
+ .formtitle{
+   font-size: 65px;
+ }
   }  
 
 
@@ -704,8 +766,15 @@ padding-bottom: 40px;
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   {
-
-
+.formtitle{
+  font-size: 43px;
+}
+.formdiv{
+  height:900px;
+}
+.aboutfirstimage{
+  margin-top: 190px;
+}
     
     
   }
@@ -718,8 +787,18 @@ padding-bottom: 40px;
   and (min-device-width: 1024px) 
   and (max-device-width: 1280px) 
   {
-
-
+.topdiv{
+  background-size: cover;
+}
+.topaboutpagediv{
+  height:930px;
+}
+.contactdiv{
+  height:1366px;
+}
+.formdiv{
+  height:1366px;
+}
     
   }
 
