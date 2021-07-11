@@ -126,14 +126,13 @@ className="applebutton"
 </div>
 
 
-<ReactBootStrap.Col>
 <div className="hacktwo"> 
+<ReactBootStrap.Col>
 <ReactBootStrap.Jumbotron fluid className="jumbotronthree">
 <h3 className="listedtitles">We bring the market to your doorstep. </h3>
 </ReactBootStrap.Jumbotron>
-</div>
 </ReactBootStrap.Col>
-
+</div>
 
 
 </ReactBootStrap.Row>
