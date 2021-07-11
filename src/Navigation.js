@@ -45,7 +45,7 @@ return (
 
 <LinkContainer to="/About">
 <ReactBootStrap.Nav.Link >
-   <p className="aboutus">About Us </p>
+   <p className="aboutus">Our Story</p>
  </ReactBootStrap.Nav.Link>
 </LinkContainer>
 
