@@ -532,7 +532,10 @@ padding-bottom: 40px;
   font-size: 20px;
 }
 .selltext{
-  font-size: 30px;
+  font-size: 37px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .sellminor{
   font-size: 15px;
